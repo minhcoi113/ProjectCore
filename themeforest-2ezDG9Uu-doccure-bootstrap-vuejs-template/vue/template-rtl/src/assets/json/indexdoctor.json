@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "Image": "doctor-03.jpg",
+        "Badge": "$ 200",
+        "Name": "Dr. Ruby Perrin",
+        "Text": "Cardiology",
+        "Star": "4.5",
+        "Rateing": "(35)",
+        "Location": "Newyork, USA"
+    },
+    {
+        "id": 2,
+        "Image": "doctor-04.jpg",
+        "Badge": "$ 360",
+        "Name": "Dr. Darren Elder",
+        "Text": "Neurology",
+        "Star": "4.0",
+        "Rateing": "(20)",
+        "Location": "Florida, USA"
+    },
+    {
+        "id": 3,
+        "Image": "doctor-05.jpg",
+        "Badge": "$ 450",
+        "Name": "Dr. Sofia Brient",
+        "Text": "Urology",
+        "Star": "4.5",
+        "Rateing": "(30)",
+        "Location": "Georgia, USA"
+    },
+    {
+        "id": 4,
+        "Image": "doctor-02.jpg",
+        "Badge": "$ 570",
+        "Name": "Dr. Paul Richard",
+        "Text": "Orthopedic",
+        "Star": "4.3",
+        "Rateing": "(45)",
+        "Location": "Michigan, USA"
+    },
+    {
+        "id": 5,
+        "Image": "doctor-01.jpg",
+        "Badge": "$ 880",
+        "Name": "Dr. John Doe",
+        "Text": "Dentist",
+        "Star": "4.4",
+        "Rateing": "(50)",
+        "Location": "California, USA"
+    }
+]

@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "outerImgSrc": "experience-4.svg",
+      "innerImgSrc": "experience-3.svg",
+      "text": "Find Experienced Doctors"
+    },
+    {
+      "id": 2,
+      "outerImgSrc": "experience-5.svg",
+      "innerImgSrc": "experience-1.svg",
+      "text": "Share your Health Issues"
+    },
+    {
+      "id": 3,
+      "outerImgSrc": "experience-6.svg",
+      "innerImgSrc": "experience-2.svg",
+      "text": "Get solution about health"
+    }
+  ]

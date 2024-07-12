@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "Image": "clinic-04.png",
+        "Title": "Cataract"
+    },
+    {
+        "id": 2,
+        "Image": "clinic-02.png",
+        "Title": "Corneal Ulcer"
+    },
+    {
+        "id": 3,
+        "Image": "clinic-03.png",
+        "Title": "Keratoconus"
+    },
+    {
+        "id": 4,
+        "Image": "clinic-01.png",
+        "Title": "Glaucoma"
+    },
+    {
+        "id": 5,
+        "Image": "clinic-05.png",
+        "Title": "Keratoconus"
+    }
+]

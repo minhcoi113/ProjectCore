@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "doctorName": "Dr. Brandon Nicholas",
+      "specialization": "Ear-Nose-Throat (ENT) Specialist",
+      "yearsExperience": 15,
+      "imageSrc": "doctor-11.jpg",
+      "rating": 4.8
+    },
+    {
+      "id": 2,
+      "doctorName": "Dr. Katherine Victoria",
+      "specialization": "MBBS, MS - ENT",
+      "yearsExperience": 9,
+      "imageSrc": "doctor-03.jpg",
+      "rating": 4.9
+    },
+    {
+        "id": 3,
+        "doctorName": "Dr. Lisa Madeleine",
+        "specialization": "MBBS, MS - ENT",
+        "yearsExperience": 10,
+        "imageSrc": "doctor-07.jpg",
+        "rating": 4.8
+      }
+  ]

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "Sticker": "sticker-icon.svg",
+        "Package": "package-icon-01.svg",
+        "Title": "Full Body Checkup",
+        "Badgeone": "Includes 90 Parameters",
+        "BadgeTwo": "Includes 20 tests",
+        "Class": ""
+    },
+    {
+        "id": 2,
+        "Sticker": "medal-icon.svg",
+        "Package": "package-icon-02.svg",
+        "Title": "Asthma Apply",
+        "Badgeone": "Includes 90 Parameters",
+        "BadgeTwo": "Includes 20 tests",
+        "Class": "medal-icon"
+    },
+    {
+        "id": 3,
+        "Sticker": "sticker-icon.svg",
+        "Package": "package-icon-01.svg",
+        "Title": "Full Body Checkup",
+        "Badgeone": "Includes 90 Parameters",
+        "BadgeTwo": "Includes 20 tests",
+        "Class": ""
+    },
+    {
+        "id": 4,
+        "Sticker": "medal-icon.svg",
+        "Package": "package-icon-02.svg",
+        "Title": "Asthma Apply",
+        "Badgeone": "Includes 90 Parameters",
+        "BadgeTwo": "Includes 20 tests",
+        "Class": "medal-icon"
+    }
+]

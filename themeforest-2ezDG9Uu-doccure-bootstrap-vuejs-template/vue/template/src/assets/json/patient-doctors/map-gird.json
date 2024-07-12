@@ -1,0 +1,125 @@
+[
+    {
+        "id" : 1,
+        "DoctorImg" : "doctor-01.jpg",
+        "DoctorName" : "Dr. Ruby Perrin",
+        "speciality" : "MDS - Periodontology and Oral Implantology, BDS",
+        "Views": "(17)",
+        "Location": "Florida, USA",
+        "Available": "Available on Fri, 22 Mar",
+        "Price": "$300 - $1000"
+    },
+
+    {
+        "id" : 2,
+        "DoctorImg" : "doctor-02.jpg",
+        "DoctorName" : "Dr. Darren Elder",
+        "speciality" : "BDS, MDS - Oral & Maxillofacial Surgery",
+        "Views": "(35)",
+        "Location": "Newyork, USA",
+        "Available": "Available on Fri, 22 Mar",
+        "Price": "$50 - $300"
+    },
+
+    {
+        "id" : 3,
+        "DoctorImg" : "doctor-03.jpg",
+        "DoctorName" : "Dr. Deborah Angel",
+        "speciality" : "MBBS, MD - General Medicine, DNB - Cardiology",
+        "Views": "(27)",
+        "Location": "Georgia, USA",
+        "Available": "Available on Fri, 22 Mar",
+        "Price": "$100 - $400"
+    },
+    {
+        "id" : 4,
+        "DoctorImg" : "doctor-04.jpg",
+        "DoctorName" : "Dr. Sofia Brient",
+        "speciality" : "MBBS, MS - General Surgery, MCh - Urolog",
+        "Views": "(4)",
+        "Location": "Louisiana, USA",
+        "Available": "Available on Fri, 22 Mar",
+        "Price": "$150 - $250"
+    },
+    {
+        "id" : 5,
+        "DoctorImg" : "doctor-05.jpg",
+        "DoctorName" : "Dr. Marvin Campbell",
+        "speciality" : "MBBS, MD - Ophthalmology, DNB - Ophthalmology",
+        "Views": "(66)",
+        "Location": "Michigan, USA",
+        "Available": "Available on Fri, 22 Mar",
+        "Price": "$50 - $700"
+    },
+    {
+        "id" : 6,
+        "DoctorImg" : "doctor-06.jpg",
+        "DoctorName" : "Dr. Katharine Berthold",
+        "speciality" : "MS - Orthopaedics, MBBS, M.Ch - Orthopaedics",
+        "Views": "(52)",
+        "Location": "Texas, USA",
+        "Available": "Available on Fri, 22 Mar",
+        "Price": "$100 - $500"
+    },
+    {
+        "id" : 7,
+        "DoctorImg" : "doctor-07.jpg",
+        "DoctorName" : "Dr. Linda Tobin",
+        "speciality" : "MBBS, MD - General Medicine, DM - Neurology",
+        "Views": "(43)",
+        "Location": "Kansas, USA",
+        "Available": "Available on Fri, 22 Mar",
+        "Price": "$100 - $1000"
+    },
+    {
+        "id" : 8,
+        "DoctorImg" : "doctor-08.jpg",
+        "DoctorName" : "Dr. Paul Richard",
+        "speciality" : "MBBS, MD - Dermatology , Venereology & Lepros",
+        "Views": "(49)",
+        "Location": "California, USA",
+        "Available": "Available on Fri, 22 Mar",
+        "Price": "$100 - $400"
+    },
+    {
+        "id" : 9,
+        "DoctorImg" : "doctor-09.jpg",
+        "DoctorName" : "Dr. John Gibbs",
+        "speciality" : "MDS - Periodontology and Oral Implantology, BDS",
+        "Views": "(112)",
+        "Location": "Oklahoma, USA",
+        "Available": "Available on Fri, 22 Mar",
+        "Price": "$500 - $2500"
+    },
+    {
+        "id" : 10,
+        "DoctorImg" : "doctor-10.jpg",
+        "DoctorName" : "Dr. Olga Barlow",
+        "speciality" : "MDS - Periodontology and Oral Implantology, BDS",
+        "Views": "(65)",
+        "Location": "Montana, USA",
+        "Available": "Available on Fri, 22 Mar",
+        "Price": "$75 - $250"
+    },
+    {
+        "id" : 11,
+        "DoctorImg" : "doctor-11.jpg",
+        "DoctorName" : "Dr. Julia Washington",
+        "speciality" : "MBBS, MD - General Medicine, DM - Endocrinology",
+        "Views": "(5)",
+        "Location": "Oklahoma, USA",
+        "Available": "Available on Fri, 22 Mar",
+        "Price": "$275 - $450"
+    },
+    {
+        "id" : 12,
+        "DoctorImg" : "doctor-12.jpg",
+        "DoctorName" : "Dr. Shaun Aponte",
+        "speciality" : "MBBS, MS - ENT, Diploma in Otorhinolaryngology (DLO)",
+        "Views": "(5)",
+        "Location": "Oklahoma, USA",
+        "Available": "Available on Fri, 22 Mar",
+        "Price": "$150 - $350"
+    }
+]
+

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "Image": "blog-1.jpg",
+        "Doctor": "doctor-thumb-01.jpg",
+        "Name": "Dr. Ruby Perrin",
+        "Title": "Urology",
+        "Content": "Doccure – Making your clinic painless visit?",
+        "Day": "3 Jan 2023"
+    },
+    {
+        "id": 2,
+        "Image": "blog-2.jpg",
+        "Doctor": "doctor-thumb-01.jpg",
+        "Name": "Dr. Ruby Perrin",
+        "Title": "Neurology",
+        "Content": "What are the benefits of Online Doctor Booking?",
+        "Day": "3 Jan 2023"
+    },
+    {
+        "id": 3,
+        "Image": "blog-3.jpg",
+        "Doctor": "doctor-thumb-01.jpg",
+        "Name": "Dr. Ruby Perrin",
+        "Title": "Orthopedic",
+        "Content": "Benefits of consulting with an Online Doctor",
+        "Day": "3 Jan 2023"
+    },
+    {
+        "id": 4,
+        "Image": "blog-4.jpg",
+        "Doctor": "doctor-thumb-01.jpg",
+        "Name": "Dr. Ruby Perrin",
+        "Title": "Cardiologist",
+        "Content": "5 Great reasons to use an Online Doctor",
+        "Day": "3 Jan 2023"
+    }
+]

@@ -1,0 +1,62 @@
+[
+    {
+        "Image" : "categorie-01.png",
+        "Name" :"Ayush",
+        "Product" : "400 Products"
+    },
+    {
+        "Image" : "categorie-02.png",
+        "Name" :"Covid Essentials",
+        "Product" : "924 Products"
+    },
+    {
+        "Image" : "categorie-03.png",
+        "Name" :"Devices",
+        "Product" : "450 Products"
+    },
+    {
+        "Image" : "categorie-04.png",
+        "Name" :"Glucometers",
+        "Product" : "580 Products"
+    },
+    {
+        "Image" : "categorie-05.png",
+        "Name" :"Eye Glasses",
+        "Product" : "620 Products"
+    },
+    {
+        "Image" : "categorie-06.png",
+        "Name" :"Weight",
+        "Product" : "740 Products"
+    },
+    {
+        "Image" : "categorie-07.png",
+        "Name" :"Women's Care",
+        "Product" : "810 Products"
+    },
+    {
+        "Image" : "categorie-08.png",
+        "Name" :"Baby Care",
+        "Product" : "680 Products"
+    },
+    {
+        "Image" : "categorie-09.png",
+        "Name" :"Home & Health",
+        "Product" : "440 Products"
+    },
+    {
+        "Image" : "categorie-10.png",
+        "Name" :"Sexual Wellness",
+        "Product" : "270 Products"
+    },
+    {
+        "Image" : "categorie-11.png",
+        "Name" :"Hands & Feet",
+        "Product" : "360 Products"
+    },
+    {
+        "Image" : "categorie-12.png",
+        "Name" :"Oral Care",
+        "Product" : "520 Products"
+    }
+]

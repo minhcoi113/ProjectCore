@@ -1,0 +1,26 @@
+[
+    {
+        "Image" :"pt-dashboard-01.png",
+        "Title" :"Heart Rate",
+        "Number": "12",
+        "text" : "bpm"
+    },
+    {
+        "Image" :"pt-dashboard-02.png",
+        "Title" :"Body Temperature",
+        "Number": "18",
+        "text" : "c"
+    },
+    {
+        "Image" :"pt-dashboard-03.png",
+        "Title" :"Glucose Level",
+        "Number": "70 - 90",
+        "text" : ""
+    },
+    {
+        "Image" :"pt-dashboard-04.png",
+        "Title" :"Blood Pressure",
+        "Number": "202/90",
+        "text" : "mg/dl"
+    }
+]

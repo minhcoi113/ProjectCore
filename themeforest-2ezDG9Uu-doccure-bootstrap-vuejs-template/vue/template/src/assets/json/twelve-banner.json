@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "Image": "swiper-slide-img-03.jpg",
+        "Title": "Asthma Apply",
+        "Content": "Includes 90 Parameters",
+        "Disprice": "$350.25",
+        "Orgprice": "$699.00"
+    },
+    {
+        "id": 2,
+        "Image": "swiper-slide-img-02.jpg",
+        "Title": "Asthma Apply",
+        "Content": "Includes 70 Parameters",
+        "Disprice": "$250.25",
+        "Orgprice": "$499.00"
+    },
+    {
+        "id": 3,
+        "Image": "swiper-slide-img-01.jpg",
+        "Title": "Asthma Apply",
+        "Content": "Includes 80 Parameters",
+        "Disprice": "$150.25",
+        "Orgprice": "$199.00"
+    }
+]

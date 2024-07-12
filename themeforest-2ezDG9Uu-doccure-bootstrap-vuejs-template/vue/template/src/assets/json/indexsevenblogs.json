@@ -1,0 +1,47 @@
+[
+    {
+      "id": 1,
+      "imageSrc": "veterinary-blog-01.jpg",
+      "imageAlt": "Blog Image 1",
+      "authorImageSrc": "doctor-04.jpg",
+      "authorAlt": "Author Image 1",
+      "authorName": "Dr. Pamila Certis",
+      "title": "What You Might Not Know About The Best Dog Food in India",
+      "date": "13 Mar, 2023",
+      "comments": 68,
+      "views": "1.5k",
+      "tags": ["Dog", "Health", "Diet Foods"],
+      "content":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": 2,
+      "imageSrc": "veterinary-blog-02.jpg",
+      "imageAlt": "Blog Image 2",
+      "authorImageSrc": "doctor-07.jpg",
+      "authorAlt": "Author Image 2",
+      "authorName": "Dr. James Matthew",
+      "title": "How to Care for Rabbits in the Winter",
+      "date": "13 Apr, 2023",
+      "comments": 87,
+      "views": "2.5k",
+      "tags": ["Pet Care", "Rabbit"],
+      "content":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      "id": 3,
+      "imageSrc": "veterinary-blog-03.jpg",
+      "imageAlt": "Blog Image 3",
+      "authorImageSrc": "doctor-06.jpg",
+      "authorAlt": "Author Image 3",
+      "authorName": "Dr. James Certis",
+      "title": "Why Cat Scratches?",
+      "date": "26 May, 2023",
+      "comments": 78,
+      "views": "1.6k",
+      "tags": ["Cat", "Cat Scratcher"],
+      "content":
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]

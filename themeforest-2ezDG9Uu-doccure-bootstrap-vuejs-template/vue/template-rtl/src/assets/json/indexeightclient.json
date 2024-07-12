@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "Content": "I would like to thank everyone at Doccure for the fantastic way you looked after me. I could not fault anyone during the time I spent with you - from the point I arrived in reception, to the catering team and every member of staff throughout the changes of shift during my stay.",
+        "Name": "Courtney Henry",
+        "Location": "New York, USA",
+        "Image": "bg/clients-says.jpg"
+    },
+    {
+        "id": 2,
+        "Content": "I would like to thank everyone at Doccure for the fantastic way you looked after me. I could not fault anyone during the time I spent with you - from the point I arrived in reception, to the catering team and every member of staff throughout the changes of shift during my stay.",
+        "Name": "Courtney Henry",
+        "Location": "New York, USA",
+        "Image": "clients/re-image-7.jpg"
+    },
+    {
+        "id": 3,
+        "Content": "I would like to thank everyone at Doccure for the fantastic way you looked after me. I could not fault anyone during the time I spent with you - from the point I arrived in reception, to the catering team and every member of staff throughout the changes of shift during my stay.",
+        "Name": "Courtney Henry",
+        "Location": "New York, USA",
+        "Image": "clients/re-image-8.jpg"
+    }
+]

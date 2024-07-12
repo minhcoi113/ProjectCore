@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "title": "What is an otolaryngologist?",
+      "description":
+        "An otolaryngologist is a doctor who specializes in the diagnosis and treatment of ear, nose and throat diseases as well as related structures of the head and neck. Otolaryngologists are also referred to as ENT doctors or physicians. For more information."
+    },
+    {
+      "id": 2,
+      "title": "What is the treatment ear infection?",
+      "description":
+        "The majority of ear infections will run their course in about a week. Pain can be managed with over-the-counter medications, eardrops, and warm compresses. If a bacterial infection is the cause, antibiotics are prescribed. Children who experience."
+    },
+    {
+      "id": 3,
+      "title": "What is obstructive sleep apnea?",
+      "description":
+        "Obstructive sleep apnea (OSA) is a condition in which an individual’s breathing stops periodically during sleep. These episodes can last ten seconds or longer and may occur hundreds of times each night, preventing restorative sleep."
+    }
+  ]

@@ -1,0 +1,10 @@
+[
+    { "id": 1, "src": "ban-fift-icon1.png", "alt": "Icon", "class": "banner-right-fifteenone" },
+    { "id": 2, "src": "ban-fift-icon2.png", "alt": "Icon", "class": "banner-right-fifteentwo" },
+    { "id": 3, "src": "ban-fift-icon3.png", "alt": "Icon", "class": "banner-right-fifteenthree" },
+    { "id": 4, "src": "ban-fift-icon4.png", "alt": "Icon", "class": "banner-right-fifteenfour" },
+    { "id": 5, "src": "ban-fift-icon5.png", "alt": "Icon", "class": "banner-right-fifteenfive" },
+    { "id": 6, "src": "ban-fift-icon6.png", "alt": "Icon", "class": "banner-right-fifteensix" },
+    { "id": 7, "src": "ban-fift-icon7.png", "alt": "Icon", "class": "banner-right-fifteenseven" },
+    { "id": 8, "src": "ban-fift-icon8.png", "alt": "Icon", "class": "banner-right-fifteeneight" }
+  ]

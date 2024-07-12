@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "Image": "blog-01.jpg",
+        "Title": "Doccure – Making your clinic painless visit?",
+        "Doctor": "doctor-thumb-01.jpg",
+        "Name": "Dr. Ruby Perrin",
+        "Day": "4 Jan 2023",
+        "Comments": "12 Comments",
+        "Tips": "Health Tips"
+    },
+    {
+        "id": 2,
+        "Image": "blog-02.jpg",
+        "Title": "What are the benefits of Online Doctor Booking?",
+        "Doctor": "doctor-thumb-02.jpg",
+        "Name": "Dr. Darren Elder",
+        "Day": "3 Jan 2023",
+        "Comments": "7 Comments",
+        "Tips": "Cardiology"
+    }
+]

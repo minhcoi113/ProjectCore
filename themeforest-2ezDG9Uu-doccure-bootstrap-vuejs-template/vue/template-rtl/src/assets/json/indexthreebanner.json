@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "Image": "clinic-1.jpg",
+        "Logo": "1.png",
+        "Title": "UROLOGY"
+    },
+    {
+        "id": 2,
+        "Image": "clinic-2.jpg",
+        "Logo": "2.png",
+        "Title": "Orthopedic"
+    },
+    {
+        "id": 3,
+        "Image": "clinic-4.jpg",
+        "Logo": "4.png",
+        "Title": "Cardiologist"
+    },
+    {
+        "id": 4,
+        "Image": "clinic-3.jpg",
+        "Logo": "5.png",
+        "Title": "Dentist"
+    },
+    {
+        "id": 5,
+        "Image": "clinic-5.jpg",
+        "Logo": "3.png",
+        "Title": "Neurology"
+    },
+    {
+        "id": 5,
+        "Image": "clinic-1.jpg",
+        "Logo": "4.png",
+        "Title": "Cardiologist"
+    }
+
+]

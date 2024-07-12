@@ -1,0 +1,20 @@
+[
+    {
+      "sectionClass": "",
+      "iconClass": "fas fa-procedures",
+      "title": "Visit a Doctor",
+      "description": "250 + Doctors"
+    },
+    {
+      "sectionClass": "two",
+      "iconClass": "fas fa-plus-square",
+      "title": "Find a Pharmacy",
+      "description": "2560 + Pharmacy"
+    },
+    {
+      "sectionClass": "three",
+      "iconClass": "fas fa-city",
+      "title": "Find a Lab",
+      "description": "250 + Testing Labs"
+    }
+  ]

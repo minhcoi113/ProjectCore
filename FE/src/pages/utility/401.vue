@@ -1,0 +1,37 @@
+<script>
+import appConfig from "@/app.config";
+
+export default {
+  page: {
+    title: "Lỗi! Không có quyền truy cập",
+    meta: [{ name: "description", content: appConfig.description }]
+  },
+}
+</script>
+<template>
+  <div class="account-pages my-5 pt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="text-center mb-5">
+            <h1 class="display-2 fw-medium">
+              4<i class="bx bx-buoy bx-spin text-primary display-3"></i>1
+            </h1>
+            <h4 class="text-uppercase">Xin lỗi, Bạn không có quyền truy cập.</h4>
+            <div class="mt-5 text-center">
+              <router-link class="btn btn-primary" to="/">Trở về trang chủ</router-link>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-8 col-xl-6">
+          <div>
+            <img src="@/assets/images/error-img.png" alt class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</template>
+

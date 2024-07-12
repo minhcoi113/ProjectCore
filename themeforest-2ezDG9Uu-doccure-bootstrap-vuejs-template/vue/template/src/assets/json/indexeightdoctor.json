@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "Image": "doctor-25.png",
+        "Name": "Gloria Smith",
+        "Title": "Paediatrician",
+        "Star": "4.1",
+        "Count": "(3621)",
+        "Patients": "+1500 Patients",
+        "Location": "New York, USA"
+    },
+    {
+        "id": 2,
+        "Image": "doctor-27.png",
+        "Name": "Mark E. Wong",
+        "Title": "Paediatrician",
+        "Star": "4.0",
+        "Count": "(1053)",
+        "Patients": "+1500 Patients",
+        "Location": "Mexico, USA"
+    },
+    {
+        "id": 3,
+        "Image": "doctor-26.png",
+        "Name": "Gloria Smith",
+        "Title": "Paediatrician",
+        "Star": "4.5",
+        "Count": "(35)",
+        "Patients": "+1500 Patients",
+        "Location": "Mexico, USA"
+    }
+]

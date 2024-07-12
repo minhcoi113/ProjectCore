@@ -1,0 +1,26 @@
+[
+    {
+      "icon": "injection.svg",
+      "alt": "injection-icon",
+      "title": "Vaccination",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed."
+    },
+    {
+      "icon": "bottel.svg",
+      "alt": "bottel-icon",
+      "title": "Pet Medicine",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed."
+    },
+    {
+      "icon": "bath-tub.svg",
+      "alt": "pet-grooming-icon",
+      "title": "Pet Grooming",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed."
+    },
+    {
+      "icon": "pet-doctor.svg",
+      "alt": "stethoscope-icon",
+      "title": "Pet Care",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed."
+    }
+  ]

@@ -1,0 +1,111 @@
+[
+    {
+      "doctor": "Dr.John Doe",
+      "specialty": "Cardiology",
+      "price": "$1100.00",
+      "hours" :"/hr",
+      "km": "0.9",
+      "location":"mi - New York, USA",
+      "year": "15",
+      "experience": "Years of Experience",
+      "image": "doctor-13.jpg",
+      "rating": "4.5"
+    },
+    {
+      "doctor": "Dr. Darren Elder",
+      "specialty": "Urology",
+      "price": "$1200.00",
+      "hours" :"/hr",
+      "km": "0.9",
+      "location": "mi - New Jercy, USA",
+      "year": "12",
+      "experience": "Years of ExperienceA",
+      "image": "doctor-14.jpg",
+      "rating": "4.5"
+    },
+    {
+      "doctor": "Dr. Sofia Brient",
+      "specialty": "Oral Surgery",
+      "price": "$1300.00",
+      "hours" :"/hr",
+      "km": "0.9", 
+      "location":"mi - New York, USA",
+      "year": "20",
+      "experience": "Years of ExperienceA",
+      "image": "doctor-15.jpg",
+      "rating": "4.5"
+    },
+    {
+      "doctor": "Dr. Johny Rita",
+      "specialty": "Cardiology",
+      "price": "$1000.00",
+      "hours" :"/hr",
+      "km": "0.9", 
+      "location":"mi - New York, USA",
+      "year": "8",
+      "experience": "Years of ExperienceA",
+      "image": "doctor-16.jpg",
+      "rating": "4.5"
+    },
+    {
+      "doctor": "Dr. Deborah Angel",
+      "specialty": "Neurology",
+      "price": "$900.00",
+      "hours" :"/hr",
+      "km": "0.9",
+      "location": "mi - New York, USA",
+      "year": "20",
+      "experience": "Years of ExperienceA",
+      "image": "doctor-17.jpg",
+      "rating": "4.5"
+    },
+    {
+      "doctor": "Dr. Ruby Perrin",
+      "specialty": "Cardiology",
+      "price": "$1500.00",
+      "hours" :"/hr",
+      "km": "0.9", 
+      "location":"mi - New York, USA",
+      "year": "20",
+      "experience": "Years of ExperienceA",
+      "image": "doctor-18.jpg",
+      "rating": "4.5"
+    },
+    {
+      "doctor": "Dr. Ruby Perrin",
+      "specialty": "Cardiology",
+      "price": "$1500.00",
+      "hours" :"/hr",
+      "km": "0.9",
+      "location": "mi - New York, USA",
+      "year": "20",
+      "experience": "Years of ExperienceA",
+      "image": "doctor-15.jpg",
+      "rating": "4.5"
+    },
+    {
+      "doctor": "Dr. Ruby Perrin",
+      "specialty": "Cardiology",
+      "price": "$1500.00",
+      "hours" :"/hr",
+      "km": "0.9",
+      "location":"mi - New York, USA",
+      "year": "20",
+      "experience": "Years of ExperienceA",
+      "image": "doctor-15.jpg",
+      "rating": "4.5"
+    },
+    {
+      "doctor": "Dr. Ruby Perrin",
+      "specialty": "Cardiology",
+      "price": "$1500.00",
+      "hours" :"/hr",
+      "km": "0.9",
+      "location": "New York, USA",
+      "year": "20",
+      "experience": "Years of ExperienceA",
+      "image": "doctor-15.jpg",
+      "rating": "4.5"
+    }
+  ]
+  

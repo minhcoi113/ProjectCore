@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "Image": "medical-img1.jpg",
+        "Title": "Medlife Medical",
+        "Rateing": "4.0",
+        "Views": "(17)",
+        "Phone": "320-795-8815",
+        "Address": "96 Red Hawk Road Cyrus, MN 56323"
+    },
+    {
+        "id": 2,
+        "Image": "medical-img2.jpg",
+        "Title": "PharmaMed Medical",
+        "Rateing": "4.0",
+        "Views": "(17)",
+        "Phone": "913-631-2538",
+        "Address": "3830 Poe Lane Kansas City, KS 66216 "
+    },
+    {
+        "id": 3,
+        "Image": "medical-img3.jpg",
+        "Title": "The Pill Club Medical",
+        "Rateing": "4.0",
+        "Views": "(17)",
+        "Phone": "816-270-2336",
+        "Address": "3849 Nutter Street Ferrelview, MO 64163"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "Image": "blog-thumb-01.jpg",
+        "Title": "Doccure – Making your clinic painless visit?",
+        "Day": "4 Jan 2023"
+    },
+    {
+        "id": 2,
+        "Image": "blog-thumb-02.jpg",
+        "Title": "What are the benefits of Online Doctor Booking?",
+        "Day": "3 Jan 2023"
+    },
+    {
+        "id": 3,
+        "Image": "blog-thumb-03.jpg",
+        "Title": "Benefits of consulting with an Online Doctor",
+        "Day": "3 Jan 2023"
+    },
+    {
+        "id": 4,
+        "Image": "blog-thumb-04.jpg",
+        "Title": "5 Great reasons to use an Online Doctor",
+        "Day": "2 Jan 2023"
+    },
+    {
+        "id": 5,
+        "Image": "blog-thumb-05.jpg",
+        "Title": "Online Doctor Appointment Scheduling",
+        "Day": "1 Jan 2023"
+    }
+]

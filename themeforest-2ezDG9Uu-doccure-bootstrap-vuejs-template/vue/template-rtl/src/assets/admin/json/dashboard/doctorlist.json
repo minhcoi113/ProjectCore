@@ -1,0 +1,42 @@
+[
+    {
+      "id":1,
+      "DoctorName": "Dr. Ruby Perrin",
+      "Image": "doctor-thumb-01.jpg",
+      "Speciality": "Dental",
+      "Earned": "$3200.00",
+      "Reviews": ""
+    },
+    {
+      "id":2,
+      "DoctorName": "Dr. Darren Elder",
+      "Image": "doctor-thumb-02.jpg",
+      "Speciality": "Dental",
+      "Earned": "$3100.00",
+      "Reviews": ""
+    },
+    {
+      "id":3,
+      "DoctorName": "Dr. Deborah Angel",
+      "Image": "doctor-thumb-03.jpg",
+      "Speciality": "Cardiology",
+      "Earned": "$4000.00",
+      "Reviews": ""
+    },
+    {
+      "id":4,
+      "DoctorName": "Dr. Sofia Brient",
+      "Image": "doctor-thumb-04.jpg",
+      "Speciality": "Urology",
+      "Earned": "$3200.00",
+      "Reviews": ""
+    },
+    {
+      "id":5,
+      "DoctorName": "Dr. Marvin Campbell",
+      "Image": "doctor-thumb-05.jpg",
+      "Speciality": "Orthopaedics",
+      "Earned": "$3500.00",
+      "Reviews": ""
+    }
+   ]

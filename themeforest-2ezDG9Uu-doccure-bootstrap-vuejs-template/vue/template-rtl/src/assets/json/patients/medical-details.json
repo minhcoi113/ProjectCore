@@ -1,0 +1,57 @@
+[
+    {
+      "Id": 1,
+      "Name": "Richard Wilson",
+      "BMI": 23.7,
+      "HeartRate": 89,
+      "FBCStatus": 140,
+      "Weight": "74Kg",
+      "Orderdate": "11 Nov 2023",
+      "Time" : "10.00 AM",
+      "Action": "Edit                                                                                                                                                                                                                                            Delete"
+    },
+    {
+      "Id": 2,
+      "Name": "Champagne",
+      "BMI": 25.2,
+      "HeartRate": 92,
+      "FBCStatus": 135,
+      "Weight": "73Kg",
+      "Orderdate": "3 Nov 2023",
+      "Time": "11.00 AM",
+      "Action": "Edit                                                                                                                                                                                                                                            Delete"
+    },
+    {
+      "Id": 3,
+      "Name": "Vena",
+      "BMI": 24.5,
+      "HeartRate": 90,
+      "FBCStatus": 125,
+      "Weight": "73.5Kg",
+      "Orderdate": "1 Nov 2023",
+      "Time": "1.00 PM",
+      "Action": "Edit                                                                                                                                                                                                                                            Delete"
+    },
+    {
+      "Id": 4,
+      "Name": "Tressie",
+      "BMI": 24.2,
+      "HeartRate": 95,
+      "FBCStatus": 128,
+      "Weight": "10.2Kg",
+      "Orderdate": "30 Oct 2023",
+      "Time": "9.00 AM",
+      "Action": "Edit                                                                                                                                                                                                                                            Delete"
+    },
+    {
+      "Id": 5,
+      "Name": "Christopher",
+      "BMI": 24.7,
+      "HeartRate": 99,
+      "FBCStatus": 122,
+      "Weight": "12.8Kg",
+      "Orderdate": "28 Oct 2023",
+      "Time": "6.00 PM",
+      "Action": "Edit                                                                                                                                                                                                                                            Delete"
+    }
+   ]

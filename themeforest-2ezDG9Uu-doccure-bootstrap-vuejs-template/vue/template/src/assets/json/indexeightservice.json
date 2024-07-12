@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "Image": "clinic/service-1.jpg",
+        "Title": "Prenatal/New-born",
+        "Content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit"
+    },
+    {
+        "id": 2,
+        "Image": "clinic/service-2.jpg",
+        "Title": "New-born examinate",
+        "Content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit"
+    },
+    {
+        "id": 3,
+        "Image": "clinic/service-3.jpg",
+        "Title": "Vaccinations",
+        "Content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit"
+    },
+    {
+        "id": 4,
+        "Image": "clinic/service-4.jpg",
+        "Title": "Blood tests",
+        "Content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit"
+    },
+    {
+        "id": 5,
+        "Image": "clinic/service-5.jpg",
+        "Title": "diagnostic tests",
+        "Content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit"
+    },
+    {
+        "id": 5,
+        "Image": "features/feature-01.jpg",
+        "Title": "Home visits",
+        "Content": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit"
+    }
+]

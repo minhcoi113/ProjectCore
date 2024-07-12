@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "Text": "headingOne",
+        "Target": "#collapseOne",
+        "Title": " Lorem ipsum dolor sit amet, consectetur adipiscing elit?",
+        "TargetId": "collapseOne",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+    },
+    {
+        "id": 2,
+        "Text": "headingTwo",
+        "Target": "#collapseTwo",
+        "Title": " Sed ut perspiciatis unde omnis iste natus error sit?",
+        "TargetId": "collapseTwo",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+    },
+    {
+        "id": 3,
+        "Text": "headingThree",
+        "Target": "#collapseThree",
+        "Title": " Ut enim ad minim veniam, quis nostrud exercitation?",
+        "TargetId": "collapseThree",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+    },
+    {
+        "id": 4,
+        "Text": "headingFour",
+        "Target": "#collapseFour",
+        "Title": "Duis aute irure dolor in reprehenderit in voluptate velit?",
+        "TargetId": "collapseFour",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+    },
+    {
+        "id": 5,
+        "Text": "headingFive",
+        "Target": "#collapseFive",
+        "Title": " Nemo enim ipsam voluptatem quia voluptas sit aut odit?",
+        "TargetId": "collapseFive",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, "
+    }
+]

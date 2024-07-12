@@ -1,0 +1,40 @@
+[
+    {
+        "title": "Essentials",
+        "image": "",
+        "amount": "$50",
+        "per_month": "per month",
+        "button_text": "Request A Demo",
+        "features": "500 conversations p/m",
+        "websites": "20 websites",
+        "data": "20 GB data storage",
+        "widget":  "Chat widget",
+        "Real": "Real time support"
+    },
+    {
+        "title": "Team",
+        "image": "",
+        "amount": "$90",
+        "per_month": "per month",
+        "button_text": "Request A Demo",
+        "features": "500 conversations p/m",
+        "websites": "20 websites",
+        "data": "20 GB data storage",
+        "widget":  "Chat widget",
+        "Real": "Real time support"
+    },
+    {
+        "title": "Enterprises",
+        "image": "",
+        "amount": "$150",
+        "per_month": "per month",
+        "button_text": "Request A Demo",
+        "features": "500 conversations p/m",
+        "websites": "20 websites",
+        "data": "20 GB data storage",
+        "widget":  "Chat widget",
+        "Real": "Real time support"       
+    }
+]
+
+  

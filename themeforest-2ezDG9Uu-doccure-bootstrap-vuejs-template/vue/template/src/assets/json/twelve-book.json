@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "Image": "book-lab-01.jpg",
+        "Title": "Pregnancy Test",
+        "Disprice": "1499.25",
+        "Orgprice": "1999.00"
+    },
+    {
+        "id": 2,
+        "Image": "book-lab-02.jpg",
+        "Title": "Thyroid",
+        "Disprice": "1299.25",
+        "Orgprice": "1499.00"
+    },
+    {
+        "id": 3,
+        "Image": "book-lab-03.jpg",
+        "Title": "Diabetes Test",
+        "Disprice": "1199.25",
+        "Orgprice": "1299.00"
+    },
+    {
+        "id": 4,
+        "Image": "book-lab-02.jpg",
+        "Title": "Thyroid",
+        "Disprice": "1299.25",
+        "Orgprice": "1499.00"
+    }
+]

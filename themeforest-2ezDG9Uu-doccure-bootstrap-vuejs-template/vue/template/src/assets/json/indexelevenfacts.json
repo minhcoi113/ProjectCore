@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "Image": "facts-5.svg",
+        "Title": "Consequences",
+        "Content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."
+    },
+    {
+        "id": 2,
+        "Image": "facts-4.svg",
+        "Title": "Privacy policy",
+        "Content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."
+    },
+    {
+        "id": 3,
+        "Image": "facts-3.svg",
+        "Title": "Surgery preparation",
+        "Content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."
+    },
+    {
+        "id": 4,
+        "Image": "facts-2.svg",
+        "Title": "Age limit",
+        "Content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."
+    },
+    {
+        "id": 5,
+        "Image": "facts-1.svg",
+        "Title": "After Surgery",
+        "Content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."
+    },
+    {
+        "id": 6,
+        "Image": "facts-5.svg",
+        "Title": "Consequences",
+        "Content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever."
+    }
+]

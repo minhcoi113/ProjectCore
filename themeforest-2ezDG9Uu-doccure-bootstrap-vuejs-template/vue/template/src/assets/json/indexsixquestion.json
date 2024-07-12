@@ -1,0 +1,38 @@
+[
+    {
+        "id": "#faq1",
+        "question": "How Often should I need to test my eyes?",
+        "class": "active"
+    },
+    {
+        "id": "#faq2",
+        "question": "What are the symptoms of Cataract?",
+        "class": ""
+    },
+    {
+        "id": "#faq3",
+        "question": "Do I need surgery for Cataract? How would I know that?",
+        "class": ""
+    },
+    {
+        "id": "#faq4",
+        "question": "What is Myopia or Nearsightedness?",
+        "class": ""
+    },
+    {
+        "id": "#faq5",
+        "question": "What is Hyperopia or farsightedness?",
+        "class": ""
+    },
+    {
+        "id": "#faq6",
+        "question": "What is Presbyopia?",
+        "class": ""
+    },
+    {
+        "id": "#faq7",
+        "question": "My eyes are fine, then why do I need to visit the doctor regularly?",
+        "class": ""
+    }
+]
+  

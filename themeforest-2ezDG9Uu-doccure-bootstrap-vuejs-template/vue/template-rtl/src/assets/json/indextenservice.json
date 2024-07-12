@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "EAR Treatment",
+      "numServices": 5,
+      "imageSrc": "service-3.jpg",
+      "description":
+        "Surgery for the human sensory organs like the ear requires precision to achieve desirable results."
+    },
+    {
+      "id": 2,
+      "name": "Nose and Sinus",
+      "numServices": 10,
+      "imageSrc": "service-2.jpg",
+      "description":
+        "The cranial aspect of the human body commanded respect from patients and doctors alike."
+    },
+    {
+      "id": 3,
+      "name": "Throat / Larynx Surgery",
+      "numServices": 15,
+      "imageSrc": "service-1.jpg",
+      "description":
+        "Laryngoplasty was introduced and popularised by Isshiki in the 1970’s."
+    }
+  ]

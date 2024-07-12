@@ -1,0 +1,21 @@
+[
+    {
+        "id":"1",
+      "type": "Received",
+      "amount": "$90.48",
+      "class":"account-card bg-success-light"
+    },
+    {
+        "id":"2",
+      "type": "Requested",
+      "amount": "$0.00",
+      "class":"account-card bg-warning-light"
+
+    },
+    {
+        "id":"3",
+      "type": "Balance",
+      "amount": "$90.48",
+      "class":"account-card bg-purple-light"
+    }
+  ]

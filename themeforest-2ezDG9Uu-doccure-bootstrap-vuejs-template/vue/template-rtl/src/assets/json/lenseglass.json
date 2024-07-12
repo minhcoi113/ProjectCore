@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "Image": "store-14.jpg",
+        "Badge": "Lenzomania",
+        "Content": "Wayfarer Contact Lense",
+        "Price": "$120",
+        "Class": "black-glass",
+        "Class1": "blue-glass"
+    },
+    {
+        "id": 2,
+        "Image": "store-15.jpg",
+        "Badge": "Contacto",
+        "Content": "Contact Lense",
+        "Price": "$290",
+        "Class": "black-glass",
+        "Class1": "blue-glass"
+    },
+    {
+        "id": 3,
+        "Image": "store-16.jpg",
+        "Badge": "Viator Lense",
+        "Content": "Contact Lense",
+        "Price": "$190",
+        "Class": "grey-glass",
+        "Class1": "gold-glass"
+    },
+    {
+        "id": 4,
+        "Image": "store-14.jpg",
+        "Badge": "Eizio Cart",
+        "Content": "Glossy Blue Lenses",
+        "Price": "$430",
+        "Class": "black-glass",
+        "Class1": "blue-glass"
+    },
+    {
+        "id": 5,
+        "Image": "store-15.jpg",
+        "Badge": "ContactLense Cart",
+        "Content": "Eyeglasses for Men and Women",
+        "Price": "$280",
+        "Class": "sand-glass",
+        "Class1": "green-glass"
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Benzaxapine Croplex",
+        "image": "product.jpg",
+        "price": "$19.00",
+        "strike_price": "$45.00"
+    },
+    {
+        "name": "Rapalac Neuronium",
+        "image": "product13.jpg",
+        "price": "$16.00",
+        "strike_price": ""
+    },
+    {
+        "name": "Ombinazol Bonibamol",
+        "image": "product1.jpg",
+        "price": "$22.00",
+        "strike_price": ""
+    },
+    {
+        "name": "Dantotate Dantodazole",
+        "image": "product2.jpg",
+        "price": "$10.00",
+        "strike_price": "$12.00"
+    },
+    {
+        "name": "Acetrace Amionel",
+        "image": "product12.jpg",
+        "price": "$7.00",
+        "strike_price": ""
+    },
+    {
+        "name": "Ergorinex Caffeigestin",
+        "image": "product11.jpg",
+        "price": "$15.00",
+        "strike_price": ""
+    },
+    {
+        "name": "Alispirox Aerorenone",
+        "image": "product3.jpg",
+        "price": "$26.00",
+        "strike_price": ""
+    },
+    {
+        "name": "Lysofranil Dorzostin",
+        "image": "product10.jpg",
+        "price": "$10.00",
+        "strike_price": "$12.00"
+    },
+    {
+        "name": "Nitrolozin Zithrotropin",
+        "image": "product4.jpg",
+        "price": "$12.00",
+        "strike_price": ""
+    },
+    {
+        "name": "Cordacriptine Mardipine",
+        "image": "product14.jpg",
+        "price": "$9.00",
+        "strike_price": ""
+    },
+    {
+        "name": "Iconevist Ampyplex",
+        "image": "product5.jpg",
+        "price": "$16.00",
+        "strike_price": ""
+    },
+    {
+        "name": "Alcafsteride Omebide",
+        "image": "product6.jpg",
+        "price": "$7.00",
+        "strike_price": ""
+    },
+    {
+        "name": "Neubide Aborase",
+        "image": "product15.jpg",
+        "price": "$30.00",
+        "strike_price": ""
+    },
+    {
+        "name": "ITONE eye drops 10ml",
+        "image": "product7.jpg",
+        "price": "$50.00",
+        "strike_price": ""
+    },
+    {
+        "name": "Antatriene Drospiletra",
+        "image": "product8.jpg",
+        "price": "$10.00",
+        "strike_price": "$20.00"
+    }
+]

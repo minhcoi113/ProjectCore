@@ -1,0 +1,23 @@
+[
+    {
+      "imageSrc": "blog-img01.jpg",
+      "imageAlt": "Post Image",
+      "title": "In this hospital there are special surgeons",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et..",
+      "date": "Jan 03, 2023"
+    },
+    {
+      "imageSrc": "blog-img02.jpg",
+      "imageAlt": "Post Image",
+      "title": "World AIDS Day, designated on 1 December",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et..",
+      "date": "Jan 03, 2023"
+    },
+    {
+      "imageSrc": "blog-img03.jpg",
+      "imageAlt": "Post Image",
+      "title": "More then 80 clinical trials launch to test coronavirus",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et..",
+      "date": "Jan 03, 2023"
+    }
+  ]

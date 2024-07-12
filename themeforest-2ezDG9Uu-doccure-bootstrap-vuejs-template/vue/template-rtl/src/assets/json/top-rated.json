@@ -1,0 +1,38 @@
+[
+    {
+        "Image": "seller-11.png",
+        "Name" : "Oral Care",
+        "Product" : "Electric Tooth Brush",
+        "Price"  : "$60",
+        "Price1" : "$100"
+    },
+    {
+        "Image": "seller-12.png",
+        "Name" : "Devices",
+        "Product" : "sphygmomanomet",
+        "Price"  : "$450",
+        "Price1" : "$500"
+    },
+    {
+        "Image": "seller-13.png",
+        "Name" : "Covid Essentials",
+        "Product" : "Hand Gloves",
+        "Price"  : "$20",
+        "Price1" : ""
+    },
+    {
+        "Image": "seller-14.png",
+        "Name" : "Hands & Feet",
+        "Product" : "Body Lotion",
+        "Price"  : "$120",
+        "Price1" : "$150"
+    },
+    {
+        "Image": "seller-15.png",
+        "Name" : "Women’s Care",
+        "Product" : "Calcium Tablets",
+        "Price"  : "$170 ",
+        "Price1" : "$200"
+    }
+    
+]

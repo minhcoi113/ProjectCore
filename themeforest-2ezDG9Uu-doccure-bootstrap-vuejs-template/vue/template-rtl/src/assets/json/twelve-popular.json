@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "Class": "hexagon",
+        "Image": "test-icon-01.svg",
+        "Title": "Diabeties"
+    },
+    {
+        "id": 2,
+        "Class": "hexagon liver",
+        "Image": "test-icon-02.svg",
+        "Title": "Liver"
+    },
+    {
+        "id": 3,
+        "Class": "hexagon kidney",
+        "Image": "test-icon-03.svg",
+        "Title": "Kidney"
+    },
+    {
+        "id": 4,
+        "Class": "hexagon fever",
+        "Image": "test-icon-04.svg",
+        "Title": "Fever"
+    }
+]

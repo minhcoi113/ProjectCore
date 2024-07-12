@@ -1,0 +1,42 @@
+[
+    {
+      "id":1,
+      "PatientName": "Charlene Reed",
+      "PatientImg": "patient1.jpg",
+      "Phone": 8286329170,
+      "LastVisit": "20 Jun 2023",
+      "Paid": "$100.00"
+    },
+    {
+      "id":2,
+      "PatientName": "Travis Trimble",
+      "PatientImg": "patient2.jpg",
+      "Phone": 2077299974,
+      "LastVisit": "22 Jun 2023",
+      "Paid": "$200.00"
+    },
+    {
+      "id":3,
+      "PatientName": "Carl Kelly",
+      "PatientImg": "patient3.jpg",
+      "Phone": 2607247769,
+      "LastVisit": "21 Jun 2023",
+      "Paid": "$250.00"
+    },
+    {
+      "id":4,
+      "PatientName": "Michelle Fairfax",
+      "PatientImg": "patient4.jpg",
+      "Phone": 5043686874,
+      "LastVisit": "21 Jul 2023",
+      "Paid": "$150.00"
+    },
+    {
+      "id":5,
+      "PatientName": "Gina Moore",
+      "PatientImg": "patient5.jpg",
+      "Phone": 9548207887,
+      "LastVisit": "18 Jul 2023",
+      "Paid": "$350.00"
+    }
+   ]

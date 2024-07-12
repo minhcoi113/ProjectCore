@@ -1,0 +1,29 @@
+[
+    {
+      "id": 1,
+      "productName": "Otogesic Ear Drops",
+      "soldBy": "ERIS LIFESCIENCES LTD",
+      "price": "25.00",
+      "originalPrice": "35.00",
+      "imageSrc": "pharmacy-1.png",
+      "discount": "10% Off"
+    },
+    {
+      "id": 2,
+      "productName": "Himalaya Bresol",
+      "soldBy": "THE HIMALAYA DRUG",
+      "price": "85.00",
+      "originalPrice": "65.00",
+      "imageSrc": "pharmacy-2.png",
+      "discount": "15% Off"
+    },
+    {
+      "id": 3,
+      "productName": "Boiron, ThroatCalm",
+      "soldBy": "BOIRON",
+      "price": "55.00",
+      "originalPrice": "95.00",
+      "imageSrc": "pharmacy-3.png",
+      "discount": "10% Off"
+    }
+  ]

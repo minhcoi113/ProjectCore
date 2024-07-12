@@ -1,0 +1,37 @@
+[
+    {
+        "Image": "seller-06.png",
+        "Name" : "Hands & Feet",
+        "Product" : "Hand Washing Soap",
+        "Price"  : "$150",
+        "Price1" : "$200"
+    },
+    {
+        "Image": "seller-07.png",
+        "Name" : "Covid Essentials",
+        "Product" : "Hand Sanitizer",
+        "Price"  : "$100",
+        "Price1" : ""
+    },
+    {
+        "Image": "seller-08.png",
+        "Name" : "Glucometer",
+        "Product" : "Glucometer",
+        "Price"  : "$200",
+        "Price1" : "300"
+    },
+    {
+        "Image": "seller-09.png",
+        "Name" : "Weight",
+        "Product" : "Weight Machine",
+        "Price"  : "$800",
+        "Price1" : ""
+    },
+    {
+        "Image": "seller-10.png",
+        "Name" : "Home & Health",
+        "Product" : "Face Cream",
+        "Price"  : "$70",
+        "Price1" : ""
+    }
+]

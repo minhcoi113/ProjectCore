@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "Title": "Advanced Renal Package",
+        "Text": "Booked 268 times",
+        "Badge": "Includes 08 tests",
+        "Disprice": "1500.25",
+        "Orgprice": "1789.00",
+        "Offer": "60% OFF"
+    },
+    {
+        "id": 2,
+        "Title": "Vitamin D & B12 Combo",
+        "Text": "Booked 785 times",
+        "Badge": "Includes 15 tests",
+        "Disprice": "789.25",
+        "Orgprice": "1600.00",
+        "Offer": "30% OFF"
+    },
+    {
+        "id": 3,
+        "Title": "Cancer Screening - Male",
+        "Text": "Booked 658 times",
+        "Badge": "Includes 20 tests",
+        "Disprice": "5879.25",
+        "Orgprice": "9990.00",
+        "Offer": "20% OFF"
+    },
+    {
+        "id": 4,
+        "Title": "Winter Care Health Ch...",
+        "Text": "Booked 268 times",
+        "Badge": "Includes 10 tests",
+        "Disprice": "1499.25",
+        "Orgprice": "1999.00",
+        "Offer": "40% OFF"
+    },
+    {
+        "id": 5,
+        "Title": "Advanced Renal Package",
+        "Text": "Booked 268 times",
+        "Badge": "Includes 08 tests",
+        "Disprice": "1500.25",
+        "Orgprice": "1789.00",
+        "Offer": "60% OFF"
+    }
+]

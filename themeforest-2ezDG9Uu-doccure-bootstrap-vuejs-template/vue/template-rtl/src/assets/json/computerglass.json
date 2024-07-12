@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "Image": "store-06.jpg",
+        "Badge": "Computer Glass",
+        "Title": "Danzier",
+        "Content": "Black Frame Eyeglasses",
+        "Price": "$390",
+        "Class": "black-glass",
+        "Class1": "blue-glass"
+    },
+    {
+        "id": 2,
+        "Image": "store-02.jpg",
+        "Badge": "Computer Glass",
+        "Title": "Fasil",
+        "Content": "Computer Eyeglasses",
+        "Price": "$230",
+        "Class": "black-glass",
+        "Class1": "blue-glass"
+    },
+    {
+        "id": 3,
+        "Image": "store-05.jpg",
+        "Badge": "Computer Glass",
+        "Title": "Coolers",
+        "Content": "Frame for Men and Women",
+        "Price": "$370",
+        "Class": "grey-glass",
+        "Class1": "gold-glass"
+    },
+    {
+        "id": 4,
+        "Image": "store-04.jpg",
+        "Badge": "Computer Glass",
+        "Title": "Eye Protect",
+        "Content": "Eyeglasses for Women",
+        "Price": "$410",
+        "Class": "black-glass",
+        "Class1": "blue-glass"
+    },
+    {
+        "id": 5,
+        "Image": "store-03.jpg",
+        "Badge": "Computer Glass",
+        "Title": "Viratio",
+        "Content": "Eyeglasses for Men and Women",
+        "Price": "$420",
+        "Class": "sand-glass",
+        "Class1": "green-glass"
+    }
+]

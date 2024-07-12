@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "Image": "doctor-01.jpg",
+        "Price": "$20 - $50",
+        "Rateing": "3.5",
+        "Name": "Dr. Ruby Perrin",
+        "Title": "BDS, MDS - Oral & Maxillofacial Surgery",
+        "Location": "Georgia, USA",
+        "Consult": "450 Consultations"
+    },
+    {
+        "id": 2,
+        "Image": "doctor-04.jpg",
+        "Price": "$20 - $50",
+        "Rateing": "3.5",
+        "Name": "Dr. Deborah Angel",
+        "Title": "MBBS, MD - General Medicine, DNB",
+        "Location": "Georgia, USA",
+        "Consult": "450 Consultations"
+    },
+    {
+        "id": 3,
+        "Image": "doctor-03.jpg",
+        "Price": "$20 - $50",
+        "Rateing": "3.5",
+        "Name": "Dr. Sofia Brient",
+        "Title": "MBBS, MS - General Surgery, MCh",
+        "Location": "Georgia, USA",
+        "Consult": "450 Consultations"
+    },
+    {
+        "id": 4,
+        "Image": "doctor-02.jpg",
+        "Price": "$20 - $50",
+        "Rateing": "3.5",
+        "Name": "Dr. Darren Elder",
+        "Title": "BDS, MDS - Oral & Maxillofacial Surgery",
+        "Location": "Georgia, USA",
+        "Consult": "450 Consultations"
+    }
+]

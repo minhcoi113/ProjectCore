@@ -1,0 +1,22 @@
+[
+    {
+      "id": 1,
+      "imageSrc": "doctor-01.jpg",
+      "name": "Dr. Ruby Perrin"
+    },
+    {
+      "id": 2,
+      "imageSrc": "doctor-02.jpg",
+      "name": "Dr. Darren Elder"
+    },
+    {
+      "id": 3,
+      "imageSrc": "doctor-03.jpg",
+      "name": "Dr. Deborah Angel"
+    },
+    {
+      "id": 4,
+      "imageSrc": "doctor-04.jpg",
+      "name": "Dr. Sofia Brient"
+    }
+  ]

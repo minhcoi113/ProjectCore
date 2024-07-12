@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "Image": "store-12.jpg",
+        "Badge": "Sun Glass",
+        "Title": "Sunglass",
+        "Content": "Black Sunglasses",
+        "Price": "$350",
+        "Class": "black-glass",
+        "Class1": "blue-glass"
+    },
+    {
+        "id": 2,
+        "Image": "store-10.jpg",
+        "Badge": "Sun Glass",
+        "Title": "Carezio",
+        "Content": "Black Frame sun Eyeglasses",
+        "Price": "$550",
+        "Class": "black-glass",
+        "Class1": "blue-glass"
+    },
+    {
+        "id": 3,
+        "Image": "store-11.jpg",
+        "Badge": "Sun Glass",
+        "Title": "Aviator Sunglasses",
+        "Content": "Gold Frame for Men and Women",
+        "Price": "$390",
+        "Class": "grey-glass",
+        "Class1": "gold-glass"
+    },
+    {
+        "id": 4,
+        "Image": "store-04.jpg",
+        "Badge": "Sun Glass",
+        "Title": "Buzanio Glass",
+        "Content": "Eyeglasses for Women",
+        "Price": "$430",
+        "Class": "black-glass",
+        "Class1": "blue-glass"
+    },
+    {
+        "id": 5,
+        "Image": "store-13.jpg",
+        "Badge": "Sun Glass",
+        "Title": "Sunrace Buy",
+        "Content": "Eyeglasses for Men and Women",
+        "Price": "$480",
+        "Class": "sand-glass",
+        "Class1": "green-glass"
+    }
+]

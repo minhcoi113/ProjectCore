@@ -1,0 +1,54 @@
+[
+    {
+        "faqid": "headingOne",
+        "accordion": "accordion-button",
+        "target": "#collapseOne",
+        "targetid": "collapseOne",
+        "class": "accordion-collapse collapse show",
+        "question": "Experience in When to repair the mitral valve.",
+        "expanded": "true",
+        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+    },
+    {
+        "faqid": "headingTwo",
+        "accordion": "accordion-button collapsed",
+        "target": "#collapseTwo",
+        "targetid": "collapseTwo",
+        "class": "accordion-collapse collapse",
+        "question": "Have you need an expert medical team in house?",
+        "expanded": "false",
+        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+    },
+    {
+        "faqid": "headingThree",
+        "target": "#collapseThree",
+        "accordion": "accordion-button collapsed",
+        "targetid": "collapseThree",
+        "class": "accordion-collapse collapse",
+        "question": "Can i make an Appointment Online with White Plains Hospital Kendi?",
+        "expanded": "false",
+        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+    },
+    {
+        "faqid": "headingFour",
+        "accordion": "accordion-button collapsed",
+        "target": "#collapseFour",
+        "targetid": "collapseFour",
+        "class": "accordion-collapse collapse",
+        "question": "Experience in When to repair the mitral valve.",
+        "expanded": "false",
+        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+    },
+    {
+        "faqid": "headingFive",
+        "accordion": "accordion-button collapsed",
+        "target": "#collapseFive",
+        "targetid": "collapseFive",
+        "class": "accordion-collapse collapse",
+        "question": "Can i make an Appointment Online with White Plains Hospital Kendi?",
+        "expanded": "false",
+        "answer": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,"
+    }
+]
+
+  

@@ -1,0 +1,27 @@
+[
+    {
+      "imageSrc": "health-care-love.svg",
+      "altText": "Personalized Health care",
+      "title": "Personalized Health care"
+    },
+    {
+      "imageSrc": "user-doctor.svg",
+      "altText": "World-Leading Experts",
+      "title": "World-Leading Experts"
+    },
+    {
+      "imageSrc": "healthcare.svg",
+      "altText": "Regularly Check Up",
+      "title": "Regularly Check Up"
+    },
+    {
+      "imageSrc": "drugs-svg.svg",
+      "altText": "Treatment For Complex Conditions",
+      "title": "Treatment For Complex Conditions"
+    },
+    {
+      "imageSrc": "syringe-svg.svg",
+      "altText": "Minimally Invasive Procedures",
+      "title": "Minimally Invasive Procedures"
+    }
+  ]

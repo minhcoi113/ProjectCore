@@ -1,0 +1,57 @@
+[
+    {
+        "id": 1,
+        "heading": "headingOne",
+        "collapse": "collapseOne",
+        "target": "#collapseOne",
+        "collapsed": "",
+        "show": "show",
+        "expanded": "true",
+      "title": "Lorem ipsum dolor sit amet",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 2,
+        "heading": "headingTwo",
+        "collapse": "collapseTwo",
+        "target": "#collapseTwo",
+        "collapsed": "collapsed",
+        "show": "",
+        "expanded": "false",
+      "title": "Lorem ipsum dolor sit amet",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 3,
+        "heading": "headingThree",
+        "collapse": "collapseThree",
+        "target": "#collapseThree",
+        "collapsed": "collapsed",
+        "show": "",
+        "expanded": "false",
+      "title": "Lorem ipsum dolor sit amet",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 4,
+        "heading": "headingFour",
+        "collapse": "collapseFour",
+        "target": "#collapseFour",
+        "collapsed": "collapsed",
+        "show": "",
+        "expanded": "false",
+      "title": "Lorem ipsum dolor sit amet",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+        "id": 5,
+        "heading": "headingFive",
+        "collapse": "collapseFive",
+        "target": "#collapseFive",
+        "collapsed": "collapsed",
+        "show": "",
+        "expanded": "false",
+      "title": "Lorem ipsum dolor sit amet",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
+  ]

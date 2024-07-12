@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "Image": "doctor-15.jpg",
+        "Name" :"Dr. Marie Wells",
+        "Badge": "Pregnancy Specialist",
+        "Patients": "+2000 Patients",
+        "Count": "(35)",
+        "Min": "0.9",
+        "Location": "min - Newyork, USA",
+        "Price": "$ 200"
+    },
+    {
+        "id": 2,
+        "Image": "doctor-16.jpg",
+        "Name" :"Dr. Justin Parker",
+        "Badge": "Surgeon",
+        "Patients": "+4000 Patients",
+        "Count": "(125)",
+        "Min": "0.1",
+        "Location": "min - Newyork, USA",
+        "Price": "$ 600"
+    },
+    {
+        "id": 3,
+        "Image": "doctor-17.jpg",
+        "Name" :"Dr. Marie Wells",
+        "Badge": "Pregnancy Specialist",
+        "Patients": "+2000 Patients",
+        "Count": "(35)",
+        "Min": "0.9",
+        "Location": "min - Newyork, USA",
+        "Price": "$ 200"
+    }
+]

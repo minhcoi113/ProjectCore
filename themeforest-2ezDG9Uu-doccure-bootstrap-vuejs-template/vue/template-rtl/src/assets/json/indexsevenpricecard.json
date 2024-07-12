@@ -1,0 +1,34 @@
+[
+    {
+      "id": 1,
+      "title": "Friendly Pack",
+      "classcard": "",
+      "price": 150,
+      "details": ["Basic Checkup", "Grooming", "Pet Shower", "Vaccination"],
+      "isActive": false
+    },
+    {
+      "id": 2,
+      "title": "Exclusive Pack",
+      "price": 175,
+      "classcard": "active",
+      "details": [
+        "Basic Checkup",
+        "Grooming",
+        "Pet Shower",
+        "Vaccination",
+        "Hair fall Pack",
+        "30 day Services"
+      ],
+      "isActive": true,
+      "bestOffer": true
+    },
+    {
+      "id": 3,
+      "title": "Family Pack",
+      "classcard": "",
+      "price": 200,
+      "details": ["30 day Services", "Grooming", "Pet Shower", "Vaccination"],
+      "isActive": false
+    }
+  ]

@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "Image": "discover-5.svg",
+        "Title": "Body",
+        "Content": "Lorem Ipsum is simply dummy typesetting industry."
+    },    
+    {
+        "id": 2,
+        "Image": "discover-4.svg",
+        "Title": "Face",
+        "Content": "Lorem Ipsum is simply dummy typesetting industry."
+    },    
+    {
+        "id": 3,
+        "Image": "discover-3.svg",
+        "Title": "Breast",
+        "Content": "Lorem Ipsum is simply dummy typesetting industry."
+    },    
+    {
+        "id": 4,
+        "Image": "discover-2.svg",
+        "Title": "Nose",
+        "Content": "Lorem Ipsum is simply dummy typesetting industry."
+    },    
+    {
+        "id": 5,
+        "Image": "discover-1.svg",
+        "Title": "Fillers",
+        "Content": "Lorem Ipsum is simply dummy typesetting industry."
+    }
+]

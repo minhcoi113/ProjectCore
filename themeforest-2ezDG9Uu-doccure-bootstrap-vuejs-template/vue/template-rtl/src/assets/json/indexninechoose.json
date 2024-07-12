@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "Image": "choose-icon1.svg",
+        "class": "get-list-content",
+        "Title": "Award Winning Service",
+        "Content": "Duas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui offici"
+    },
+    {
+        "id": 2,
+        "Image": "choose-icon2.svg",
+        "class": "get-list-content second-bg",
+        "Title": "Best Quality Pregnancy Care",
+        "Content": "Duas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui offici"
+    },
+    {
+        "id": 3,
+        "Image": "choose-icon3.svg",
+        "class": "get-list-content",
+        "Title": "Complete Medical Equipment",
+        "Content": "Duas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui offici"
+    },
+    {
+        "id": 4,
+        "Image": "choose-icon4.svg",
+        "class": "get-list-content second-bg",
+        "Title": "Dedicated Emergency Care",
+        "Content": "Duas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui offici"
+    }
+]

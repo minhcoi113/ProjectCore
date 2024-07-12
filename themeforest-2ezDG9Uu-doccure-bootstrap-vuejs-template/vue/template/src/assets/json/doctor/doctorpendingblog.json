@@ -1,0 +1,102 @@
+[
+    {
+        "id": "1",
+      "blogImageSrc": "blog-01.jpg",
+      "blogTitle": "Doccure – Making your clinic painless visit?",
+      "blogDate": "4 Dec 2023",
+      "authorImageSrc": "doctor-thumb-01.jpg",
+      "authorName": "Dr. Ruby Perrin",
+      "blogContent": "Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor."
+      
+    },
+    {
+        "id": "2",
+      "blogImageSrc": "blog-02.jpg",
+      "blogTitle": "What are the benefits of Online Doctor Booking?",
+      "blogDate": "3 Dec 2023",
+      "authorImageSrc": "doctor-thumb-02.jpg",
+      "authorName": "Dr. Darren Elder",
+      "blogContent": "Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor."
+      
+    },
+    {
+        "id": "3",
+      "blogImageSrc": "blog-03.jpg",
+      "blogTitle": "Benefits of consulting with an Online Doctor",
+      "blogDate": "3 Dec 2023",
+      "authorImageSrc": "doctor-thumb-03.jpg",
+      "authorName": "Dr. Deborah Angel",
+      "blogContent": "Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor."
+      
+    },
+    {
+        "id": "4",
+      "blogImageSrc": "blog-04.jpg",
+      "blogTitle": "5 Great reasons to use an Online Doctor",
+      "blogDate": "2 Dec 2023",
+      "authorImageSrc": "doctor-thumb-04.jpg",
+      "authorName": "Dr. Sofia Brient",
+      "blogContent": "Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor."
+      
+    },
+    {
+        "id": "5",
+      "blogImageSrc": "blog-05.jpg",
+      "blogTitle": "Online Doctor Appointment Scheduling",
+      "blogDate": "1 Dec 2023",
+      "authorImageSrc": "doctor-thumb-05.jpg",
+      "authorName": "Dr. Marvin Campbell",
+      "blogContent": "Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor."
+      
+    },
+    {
+        "id": "6",
+      "blogImageSrc": "blog-06.jpg",
+      "blogTitle": "Simple steps to make your doctor visits exceptional!",
+      "blogDate": "30 Nov 2023",
+      "authorImageSrc": "doctor-thumb-06.jpg",
+      "authorName": "Dr. Katharine Berthold",
+      "blogContent": "Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor."
+      
+    },
+    {
+        "id": "7",
+      "blogImageSrc": "blog-07.jpg",
+      "blogTitle": "Choose your own Online Doctor Appointment",
+      "blogDate": "28 Nov 2023",
+      "authorImageSrc": "doctor-thumb-07.jpg",
+      "authorName": "Dr. Linda Tobin",
+      "blogContent": "Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor."
+      
+    },
+    {
+        "id": "8",
+      "blogImageSrc": "blog-08.jpg",
+      "blogTitle": "Simple steps to visit your doctor today",
+      "blogDate": "25 Nov 2023",
+      "authorImageSrc": "doctor-thumb-08.jpg",
+      "authorName": "Dr. Paul Richard",
+      "blogContent": "Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor."
+      
+    },
+    {
+        "id": "9",
+      "blogImageSrc": "blog-09.jpg",
+      "blogTitle": "5 Great reasons to use an Online Doctor",
+      "blogDate": "24 Nov 2023",
+      "authorImageSrc": "doctor-thumb-09.jpg",
+      "authorName": "Dr. John Gibbs",
+      "blogContent": "Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor."
+      
+    },
+    {
+        "id": "10",
+      "blogImageSrc": "blog-10.jpg",
+      "blogTitle": "Online Doctoral Programs",
+      "blogDate": "23 Nov 2023",
+      "authorImageSrc": "doctor-thumb-10.jpg",
+      "authorName": "Dr. Olga Barlow",
+      "blogContent": "Lorem ipsum dolor sit amet, consectetur em adipiscing elit, sed do eiusmod tempor."
+      
+    }
+  ]

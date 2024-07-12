@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Jenifer Robinson",
+      "location": "Texas, USA",
+      "rating": 4,
+      "image": "client-10.jpg",
+      "comment":
+        "Thank you! for giving excellent care of my doggies, the best pet care ever! I recommend."
+    },
+    {
+      "id": 2,
+      "name": "Ronald Jacobs",
+      "location": "Texas, USA",
+      "rating": 4,
+      "image": "client-09.jpg",
+      "comment":
+        "Thank you! for giving excellent care of my doggies, the best pet care ever! I recommend."
+    }
+  ]

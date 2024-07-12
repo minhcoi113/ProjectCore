@@ -1,0 +1,68 @@
+[
+    {
+        "Nurse_Image" : "nurse-04.jpg",
+        "Experience" : "7+ Years Experience",
+        "Name" : "Carolyn",
+        "Location" : "United States",
+        "Percentage" : "94%",
+        "Patients" : "1756 Patients",
+        "Amount" : "$120",
+        "Meter" : "600 m",
+        "Image" : "nurse-slide-badge-01.svg"
+    },
+    {
+        "Nurse_Image" : "nurse-05.jpg",
+        "Experience" : "10+ Years Experience",
+        "Name" : "Jasmine Madeleine",
+        "Location" : "United States",
+        "Percentage" : "98%",
+        "Patients" : "1856 Patients",
+        "Amount" : "$100",
+        "Meter"  : "700 m",
+        "Image" : "nurse-slide-badge-02.svg"
+    },
+    {
+        "Nurse_Image" : "nurse-06.jpg",
+        "Experience" : "15+ Years Experience",
+        "Name" : "Samantha Tracey",
+        "Location" : "United Kingdom",
+        "Percentage" : "95%",
+        "Patients" : "1156 Patients",
+        "Amount" : "$150",
+        "Meter" :  "500 m",
+        "Image" : "nurse-slide-badge-01.svg"
+    },
+    {
+        "Nurse_Image" : "nurse-01.jpg",
+        "Experience" : "7+ Years Experience",
+        "Name" : "Elizabeth Penelope",
+        "Location" : "United States",
+        "Percentage" : "98%",
+        "Patients" : "1856 Patients",
+        "Amount" : "$140",
+        "Meter" : "700 m",
+        "Image" : "nurse-slide-badge-01.svg"
+    },
+    {
+        "Nurse_Image" : "nurse-02.jpg",
+        "Experience" : "5+ Years Experience",
+        "Name" : "Dorothy Joanne",
+        "Location" : "United Kingdom",
+        "Percentage" : "97%",
+        "Patients" : "2589 Patients",
+        "Amount" : "$160",
+        "Meter" : "2.5 m",
+        "Image" : "nurse-slide-badge-01.svg"
+    },
+    {
+        "Nurse_Image" : "nurse-03.jpg",
+        "Experience" : "8+ Years Experience",
+        "Name" : "Rachel Sophie",
+        "Location" : "United States",
+        "Percentage" : "91%",
+        "Patients" : "5478 Patients",
+        "Amount" : "$120",
+        "Meter" : "900 m",
+        "Image" : "nurse-slide-badge-01.svg"
+    }
+]

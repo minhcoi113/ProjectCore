@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "Image": "specialities-01.svg",
+        "Title": "Cardiology"
+    },
+    {
+        "id": 2,
+        "Image": "specialities-02.svg",
+        "Title": "Neurology"
+    },
+    {
+        "id": 3,
+        "Image": "specialities-03.svg",
+        "Title": "Urology"
+    },
+    {
+        "id": 4,
+        "Image": "specialities-04.svg",
+        "Title": "Orthopedic"
+    },
+    {
+        "id": 5,
+        "Image": "specialities-05.svg",
+        "Title": "Dentist"
+    },
+    {
+        "id": 6,
+        "Image": "specialities-06.svg",
+        "Title": "Ophthalmology"
+    },
+    {
+        "id": 7,
+        "Image": "specialities-02.svg",
+        "Title": "Neurology"
+    }
+]

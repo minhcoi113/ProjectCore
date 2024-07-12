@@ -1,0 +1,34 @@
+[
+    {
+        "Image" : "deals-01.png",
+        "Name" : "Diabetes"
+    },
+    {
+        "Image" : "deals-02.png",
+        "Name" : "Cardiac Care"
+    },
+    {
+        "Image" : "deals-03.png",
+        "Name" : "Stomach Care"
+    },
+    {
+        "Image" : "deals-04.png",
+        "Name" : "Ayurvedic"
+    },
+    {
+        "Image" : "deals-05.png",
+        "Name" : "Homeopathy"
+    },
+    {
+        "Image" : "deals-06.png",
+        "Name" : "Fitness"
+    },
+    {
+        "Image" : "deals-07.png",
+        "Name" : "Mom & Baby"
+    },
+    {
+        "Image" : "deals-08.png",
+        "Name" : "Devices"
+    }
+]

@@ -1,0 +1,31 @@
+[
+    {
+        "status" : "BMI Status",
+        "Image" : "graph-01.png",
+        "text" : "Last Update 6d",
+        "color" : "graph-box",
+        "target" :"#graph1"
+    },
+    {
+        "status" : "Heart Rate Status",
+        "Image" : "graph-02.png",
+        "text" : "Last Update 2d",
+        "color" : "graph-box pink-graph",
+        "target" :"#graph2"
+    },
+    {
+        "status" : "FBC Status",
+        "Image" : "graph-03.png",
+        "text" : "Last Update 5d",
+        "color" : "graph-box sky-blue-graph",
+        "target" :"#graph3"
+    },
+    {
+        "status" : "Weight Status",
+        "Image" : "graph-04.png",
+        "text" : "Last Update 3d",
+        "color" : "graph-box orange-graph",
+        "target" :"#graph4"
+    }
+    
+]

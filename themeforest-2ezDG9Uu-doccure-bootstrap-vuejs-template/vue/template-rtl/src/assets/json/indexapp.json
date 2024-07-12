@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "Title": "Can i make an Appointment Online with White Plains Hospital Kendi?",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+        "Text": "headingOne",
+        "Target": "#collapseOne",
+        "Targetid": "collapseOne",
+        "Aria": "collapseOne",
+        "Class": "accordion-collapse collapse show",
+        "classname": "accordion-button",
+        "expanded": true
+    },
+    {
+        "id": 2,
+        "Title": "Can i make an Appointment Online with White Plains Hospital Kendi?",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+        "Text": "headingTwo",
+        "Target": "#collapseTWo",
+        "Targetid": "collapseTWo",
+        "Aria": "collapseTwo",
+        "Class": "accordion-collapse collapse",
+        "classname": "accordion-button collapsed",
+        "expanded": false
+    },
+    {
+        "id": 3,
+        "Title": "Can i make an Appointment Online with White Plains Hospital Kendi?",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+        "Text": "headingThree",
+        "Target": "#collapseThree",
+        "Targetid": "collapseThree",
+        "Aria": "collapseThree",
+        "Class": "accordion-collapse collapse",
+        "classname": "accordion-button collapsed",
+        "expanded": false
+    },
+    {
+        "id": 4,
+        "Title": "Can i make an Appointment Online with White Plains Hospital Kendi?",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+        "Text": "headingFour",
+        "Target": "#collapseFour",
+        "Targetid": "collapseFour",
+        "Aria": "collapseFour",
+        "Class": "accordion-collapse collapse",
+        "classname": "accordion-button collapsed",
+        "expanded": false
+    },
+    {
+        "id": 5,
+        "Title": "Can i make an Appointment Online with White Plains Hospital Kendi?",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,",
+        "Text": "headingFive",
+        "Target": "#collapseFive",
+        "Targetid": "collapseFive",
+        "Aria": "collapseFive",
+        "Class": "accordion-collapse collapse",
+        "classname": "accordion-button collapsed",
+        "expanded": false
+    }
+]

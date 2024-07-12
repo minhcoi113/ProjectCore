@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "Image": "client-01.jpg",
+        "Name": "John Doe",
+        "Location": "New York"
+    },
+    {
+        "id": 2,
+        "Image": "client-02.jpg",
+        "Name": "Amanda Warren",
+        "Location": "Florida"
+    },
+    {
+        "id": 3,
+        "Image": "client-03.jpg",
+        "Name": "Betty Carlson",
+        "Location": "Georgia"
+    },
+    {
+        "id": 4,
+        "Image": "client-04.jpg",
+        "Name": "Veronica",
+        "Location": "California"
+    },
+    {
+        "id": 5,
+        "Image": "client-05.jpg",
+        "Name": "Richard",
+        "Location": "Michigan"
+    }
+]

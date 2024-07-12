@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "Image": "blog-15.jpg",
+        "DoctorImg": "doctor-04.jpg",
+        "Name": "Dr. Pamila Certis",
+        "Title": "How To Get Pregnant: Tips to Increas it Affect Fertility",
+        "Day": "13 Mar, 2023",
+        "Chat": "68",
+        "Views": "1.5k",
+        "Badge": "Pregnancy",
+        "Badge1": "Fertility",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ad minim veniam, quis magna aliqua."
+    },
+    {
+        "id": 2,
+        "Image": "blog-16.jpg",
+        "DoctorImg": "doctor-05.jpg",
+        "Name": "Dr. James Matthew",
+        "Title": "Flavourful Recipe of Central /India to Boost Fertility",
+        "Day": "13 Mar, 2023",
+        "Chat": "87",
+        "Views": "2.5k",
+        "Badge": "Diet",
+        "Badge1": "Health",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ad minim veniam, quis magna aliqua."
+    },
+    {
+        "id": 3,
+        "Image": "blog-17.jpg",
+        "DoctorImg": "doctor-06.jpg",
+        "Name": "Dr. James Certis",
+        "Title": "Sperm Morphology – What is it & How Does it Affect Fertility",
+        "Day": "26 May, 2023",
+        "Chat": "78",
+        "Views": "1.6k",
+        "Badge": "Health",
+        "Badge1": "Fertility",
+        "Content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore ad minim veniam, quis magna aliqua."
+    }
+]

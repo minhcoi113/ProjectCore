@@ -1,0 +1,69 @@
+[
+    {
+        "id" : 1,
+        "DoctorImg" : "doctor-01.jpg",
+        "DoctorName" : "Dr. Ruby Perrin",
+        "Role" : "MDS - Periodontology and Oral Implantology, BDS",
+        "Speciality" : "Dentist",
+        "SpecialityImg" : "specialities-05.png",
+        "Views": "(17)",
+        "Location": "Florida, USA",
+        "Price": "$300 - $1000",
+        "percentage":"98%",
+        "Feedback" : "17 Feedback"
+    },
+
+    {
+        "id" : 2,
+        "DoctorImg" : "doctor-02.jpg",
+        "DoctorName" : "Dr. Darren Elder",
+        "Role" : "BDS, MDS - Oral & Maxillofacial Surgery",
+        "Speciality" : "Dentist",
+        "SpecialityImg" : "specialities-05.png",
+        "Views": "(35)",
+        "Location": "Newyork, USA",
+        "Price": "$50 - $300",
+        "percentage":"100%",
+        "Feedback" : "35 Feedback"
+    },
+
+    {
+        "id" : 3,
+        "DoctorImg" : "doctor-03.jpg",
+        "DoctorName" : "Dr. Deborah Angel",
+        "Role" : "MBBS, MD - General Medicine, DNB - Cardiology",
+        "Speciality" :"Cardiology",
+        "SpecialityImg" : "specialities-04.png",
+        "Views": "(27)",
+        "Location": "Georgia, USA",
+        "Price": "$100 - $400",
+        "percentage":"99%",
+        "Feedback" : "35 Feedback"
+    },
+    {
+        "id" : 4,
+        "DoctorImg" : "doctor-04.jpg",
+        "DoctorName" : "Dr. Sofia Brient",
+        "Role" : "MBBS, MS - General Surgery, MCh - Urolog",
+        "Speciality" :"Urology",
+        "SpecialityImg" : "specialities-01.png",
+        "Views": "(4)",
+        "Location": "Louisiana, USA",
+        "Price": "$150 - $250",
+        "percentage":"97%",
+        "Feedback" : "4 Feedback"
+    },
+    {
+        "id" : 5,
+        "DoctorImg" : "doctor-06.jpg",
+        "DoctorName" : "Dr. Katharine Berthold",
+        "Role" : "MS - Orthopaedics, MBBS, M.Ch - Orthopaedics",
+        "Speciality" :"Orthopaedics",
+        "SpecialityImg" : "specialities-03.png",
+        "Views": "(52)",
+        "Location": "Texas, USA",
+        "Price": "$100 - $500",
+        "percentage":"100%",
+        "Feedback" : "52 Feedback"
+    }
+]

@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "Image": "store-01.jpg",
+        "Badge": "Power Glass",
+        "Title": "Nerdlane",
+        "Content": "Black Full Frame Wayfarer Eyeglasses",
+        "Price": "$490",
+        "Class": "black-glass",
+        "Class1": "blue-glass"
+    },
+    {
+        "id": 2,
+        "Image": "store-02.jpg",
+        "Badge": "Power Glass",
+        "Title": "Mirar Aviator Eyeglasses",
+        "Content": "Gold Full Frame for Men and Women",
+        "Price": "$480",
+        "Class": "gold-glass",
+        "Class1": "grey-glass"
+    },
+    {
+        "id": 3,
+        "Image": "store-03.jpg",
+        "Badge": "Power Glass",
+        "Title": "Izibuko",
+        "Content": "Eyeglasses for Women",
+        "Price": "$480",
+        "Class": "black-glass",
+        "Class1": "blue-glass"
+    },
+    {
+        "id": 4,
+        "Image": "store-04.jpg",
+        "Badge": "Power Glass",
+        "Title": "Vistazo",
+        "Content": "Eyeglasses for Men and Women",
+        "Price": "$490",
+        "Class": "sand-glass",
+        "Class1": "green-glass"
+    },
+    {
+        "id": 5,
+        "Image": "store-06.jpg",
+        "Badge": "Power Glass",
+        "Title": "Tintin",
+        "Content": "Full Frame tintin Eyeglasses",
+        "Price": "$400",
+        "Class": "black-glass",
+        "Class1": "blue-glass"
+    }
+]

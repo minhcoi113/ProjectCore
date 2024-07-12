@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "Image": "blog-11.jpg",
+        "Name": "John Doe",
+        "Day": "13 Mar, 2023",
+        "Title": "Doccure – Making your clinic painless visit?",
+        "Content": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+    },
+    {
+        "id": 2,
+        "Image": "blog-12.jpg",
+        "Name": "Darren Elder",
+        "Day": "10 Apr, 2023",
+        "Title": "What are the benefits of Online Doctor Booking?",
+        "Content": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+    },
+    {
+        "id": 3,
+        "Image": "blog-13.jpg",
+        "Name": "Ruby Perrin",
+        "Day": "30 May, 2023",
+        "Title": "Benefits of consulting with an Online Doctor",
+        "Content": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+    },
+    {
+        "id": 4,
+        "Image": "blog-14.jpg",
+        "Name": "Sofia Brient",
+        "Day": "08 Jun, 2023",
+        "Title": "5 Great reasons to use an Online Doctor",
+        "Content": "Sed perspiciatis unde omnis iste natus error sit voluptatem accusantium"
+    }
+]

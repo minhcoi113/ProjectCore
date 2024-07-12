@@ -1,0 +1,38 @@
+[
+    {
+      "imgSrc": "veterinary-doctor-01.jpg",
+      "imgAlt": "image",
+      "price": "$200",
+      "specialization": "Veterinarian",
+      "name": "Dr. Marie Wells",
+      "location": "0.9 min - New York, USA",
+      "ratings": 20
+    },
+    {
+      "imgSrc": "veterinary-doctor-02.jpg",
+      "imgAlt": "image",
+      "price": "$150",
+      "specialization": "Pet Care Specialist",
+      "name": "Dr. Justin Parker",
+      "location": "2 hrs - Chicago, USA",
+      "ratings": 22
+    },
+    {
+        "imgSrc": "veterinary-doctor-03.jpg",
+        "imgAlt": "image",
+        "price": "$110",
+        "specialization": "Veterinarian",
+        "name": "Dr. Pamela Curtis",
+        "location": "0.8 min - Sandiago, USA",
+        "ratings": 30
+      },
+      {
+        "imgSrc": "veterinary-doctor-04.jpg",
+        "imgAlt": "image",
+        "price": "$50",
+        "specialization": "Veterinarian",
+        "name": "Dr.Ronald Jacobs",
+        "location": "10 min - Texas, USA",
+        "ratings": 45
+      }
+  ]

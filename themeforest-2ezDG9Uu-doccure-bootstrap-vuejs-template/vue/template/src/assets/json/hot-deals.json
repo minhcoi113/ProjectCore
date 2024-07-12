@@ -1,0 +1,37 @@
+[
+    {
+        "Image": "seller-01.png",
+        "Name" : "Home & Health",
+        "Product" : "Vitamin Tablets",
+        "Price"  : "$200",
+        "Price1" : "$300"
+    },
+    {
+        "Image": "seller-02.png",
+        "Name" : "Ayush",
+        "Product" : "Natural Tooth Paste",
+        "Price"  : "$50",
+        "Price1" : ""
+    },
+    {
+        "Image": "seller-03.png",
+        "Name" : "Baby Care",
+        "Product" : "Baby Kit",
+        "Price"  : "$270",
+        "Price1" : ""
+    },
+    {
+        "Image": "seller-04.png",
+        "Name" : "Eye Glasses",
+        "Product" : "Round Frame Glass",
+        "Price"  : "$450",
+        "Price1" : "$500"
+    },
+    {
+        "Image": "seller-01.png",
+        "Name" : "Devices",
+        "Product" : "Infrared Thermometer",
+        "Price"  : "$300",
+        "Price1" : "$400"
+    }
+]

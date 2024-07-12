@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "Image": "spec.png",
+        "Title": "Orthopedic"
+    },
+    {
+        "id": 2,
+        "Image": "spec-01.png",
+        "Title": "Laboratry"
+    },
+    {
+        "id": 3,
+        "Image": "spec-02.png",
+        "Title": "Neurology"
+    },
+    {
+        "id": 4,
+        "Image": "spec-03.png",
+        "Title": "Cardiology"
+    },
+    {
+        "id": 5,
+        "Image": "spec-04.png",
+        "Title": "MRI Scans"
+    },
+    {
+        "id": 6,
+        "Image": "spec-05.png",
+        "Title": "Primary Checkup"
+    },
+    {
+        "id": 7,
+        "Image": "spec-06.png",
+        "Title": "Testing"
+    },
+    {
+        "id": 8,
+        "Image": "spec-07.png",
+        "Title": "Dentist"
+    }
+]

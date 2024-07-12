@@ -1,0 +1,42 @@
+[
+    {
+        "id":  1,
+        "Class": "feature-package-card",
+        "Title": "Women's Health Check-up",
+        "Text": "15 Test Included",
+        "Disprice": "$150.25",
+        "Orgprice": "$199.00",
+        "Image": "package-card-img-03.png",
+        "Background": "package-card-bg-01.png"
+    },
+    {
+        "id":  2,
+        "Class": "feature-package-card family-pack",
+        "Title": "Family Package for 3 Members",
+        "Text": "15 Test Included - 55% off",
+        "Disprice": "$870.25 ",
+        "Orgprice": "$999.00",
+        "Image": "package-card-img-02.png",
+        "Background": "package-card-bg-03.png"
+    },
+    {
+        "id":  3,
+        "Class": "feature-package-card mens-health",
+        "Title": "Men's Health Check-up",
+        "Text": "15 Test Included - 55% off",
+        "Disprice": "$130.25 ",
+        "Orgprice": "$199.00",
+        "Image": "package-card-img-01.png",
+        "Background": "package-card-bg-02.png"
+    },
+    {
+        "id":  4,
+        "Class": "feature-package-card family-pack",
+        "Title": "Family Package for 3 Members",
+        "Text": "15 Test Included - 55% off",
+        "Disprice": "$870.25",
+        "Orgprice": "$999.00",
+        "Image": "package-card-img-02.png",
+        "Background": "package-card-bg-03.png"
+    }
+]
