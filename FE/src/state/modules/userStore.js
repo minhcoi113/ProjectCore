@@ -26,10 +26,13 @@ export const actions = {
     async update({commit, dispatch}, values) {
         return apiClient.put(controller +"/update", values);
     },
-    async delete({commit}, id) {
-        return await apiClient.post(controller +"/delete" , id);
+    async delete({commit}, params) {
+        return await apiClient.post(controller +"/delete" , params);
     },
-    async getById({commit}, id) {
-        return apiClient.post(controller +"/get-by-id-core", id);
+    async getById({commit}, params) {
+        return apiClient.post(controller +"/get-by-id-core", params);
+    },
+    async changePassword({commit}, params) {
+        return apiClient.post(controller + "/change-password", params);
     },
 };

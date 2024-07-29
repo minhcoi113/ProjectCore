@@ -2,6 +2,7 @@ using DTC.DefaultRepository.Models.Base;
 using DTC.DefaultRepository.Models.Core;
 using DTC.T;
 using MongoDB.Bson.Serialization.Attributes;
+using Project.Net8.Models.Core;
 using Project.Net8.ViewModels;
 
 namespace Project.Net8.Models.Permission
@@ -13,15 +14,11 @@ namespace Project.Net8.Models.Permission
         
         public byte[] PasswordSalt { get; set; }
         public byte[] PasswordHash { get; set; }
-        public string FullName { get; set; }
         
-        public string Avatar { get; set; }
-        
-        
-        
+        public FileShortModel Avatar { get; set; }
+
         public CoreModel DonVi { get; set; }
 
-        
         public CoreModel UnitRole { get; set; }
 
         public bool IsAppAuthentication { get; set; } = false;

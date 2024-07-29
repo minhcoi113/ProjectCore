@@ -5,12 +5,15 @@ using DTC.MongoDB;
 using MongoDB.Bson;
 using MongoDB.Bson.Serialization;
 using MongoDB.Driver;
+using Project.Net8.Constants;
 using Project.Net8.Installers;
 using Project.Net8.Interface.Major;
+using Project.Net8.Models.Core;
 using Project.Net8.Models.Major;
 using Project.Net8.Models.PagingParam;
 using Project.Net8.Service.Base;
 using Project.Net8.ViewModels;
+using System.Collections;
 
 namespace Project.Net8.Service.Major
 {
@@ -18,6 +21,7 @@ namespace Project.Net8.Service.Major
     {
         private DataContext _context;
         private BaseMongoDb<BaiThiModel, string> BaseMongoDb;
+        protected IMongoCollection<CommonModel> _collectionCommon;        
         protected ProjectionDefinition<BaiThiModel, BsonDocument> projectionDefinition = Builders<BaiThiModel>.Projection
             .Exclude("ModifiedAt")
             .Exclude("CreatedBy")
@@ -83,11 +87,26 @@ namespace Project.Net8.Service.Major
             {
                 if (model == default)
                     throw new ResponseMessageException().WithException(DefaultCode.ERROR_STRUCTURE);
-
+                if(model.TrangThai == null)
+                {
+                    _collectionCommon = (IMongoCollection<CommonModel>)_context.GetCategoryCollectionAs("DM_TRANGTHAI");
+                    if (_collectionCommon.CollectionNamespace.DatabaseNamespace == null)
+                        throw new ResponseMessageException().WithException(DefaultCode.COMMON_NOT_FOUND);
+                    var filter = Builders<CommonModel>.Filter.Where(x => !x.IsDeleted && x.Code == "3");
+                    var item = await _collectionCommon.Aggregate().Match(filter).SortByDescending(x => x.Sort)
+                        .Project<CommonModelShort>(Projection.Projection_BasicCommon).FirstOrDefaultAsync();
+                    var CommonModelShort = new CommonModelShort()
+                    {
+                        Id = item.Id,
+                        Name = item.Name,
+                        Code = item.Code
+                    };
+                    model.TrangThai = CommonModelShort;
+                }
                 var user = new ModelShort()
                 {
                     Id = CurrentUser.Id, 
-                    Name = CurrentUser.FullName,
+                    Name = CurrentUser.Name,
                 };
                 model.NguoiGiao = user;
 

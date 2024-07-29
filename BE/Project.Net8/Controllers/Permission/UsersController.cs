@@ -7,6 +7,8 @@ using Project.Net8.Controllers.DefaultRepository;
 using Project.Net8.Installers;
 using Project.Net8.Interface.Permission;
 using Project.Net8.Models.Permission;
+using Project.Net8.Service.Permission;
+using Project.Net8.ViewModels;
 
 namespace Project.Net8.Controllers.Permission
 {
@@ -74,5 +76,30 @@ namespace Project.Net8.Controllers.Permission
             }
         }
 
+
+
+        [HttpPost]
+        [Route("change-password")]
+        public async Task<IActionResult> ChangePassword([FromBody] UserVM model)
+        {
+            try
+            {
+                var data = await _service.ChangePassword(model);
+
+                return Ok(
+                    new ResultMessageResponse()
+                        .WithData(data)
+                        .WithCode(DefaultCode.SUCCESS)
+                        .WithMessage(DefaultMessage.UPDATE_SUCCESS)
+                );
+            }
+            catch (ResponseMessageException ex)
+            {
+                return Ok(
+                    new ResultMessageResponse().WithCode(ex.ResultCode)
+                        .WithMessage(ex.ResultString)
+                );
+            }
+        }
     }
 }

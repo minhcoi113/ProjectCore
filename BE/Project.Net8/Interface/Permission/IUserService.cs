@@ -1,4 +1,5 @@
 using Project.Net8.Models.Permission;
+using Project.Net8.ViewModels;
 
 namespace Project.Net8.Interface.Permission;
 
@@ -9,4 +10,5 @@ public interface IUserService
     
     Task<dynamic> Update(User model);
 
+    Task<dynamic> ChangePassword(UserVM model);
 }

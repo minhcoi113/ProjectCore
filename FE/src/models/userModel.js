@@ -4,7 +4,8 @@ const toJson = (item) => {
         userName: item.userName,
         name: item.name,
         email: item.email,
-        roles: item.roles
+        unitRole: item.unitRole,
+        avatar: item.avatar
     }
 }
 
@@ -14,7 +15,8 @@ const fromJson = (item) => {
         userName: item.userName,
         name: item.name,
         email: item.email,
-        roles: item.roles
+        unitRole: item.unitRole,
+        avatar: item.avatar
     }
 }
 
@@ -24,7 +26,8 @@ const baseJson = () => {
         userName: null,
         name: null,
         email: null,
-        roles: null
+        unitRole: null,
+        avatar: null
     }
 }
 

@@ -119,7 +119,7 @@ export default {
 </script>
 
 <template>
-  <div class="container-fluid p-0 bg-login">
+  <div class="container-fluid p-0 bg-login 100ph">
     <div class="row g-0 justify-content-end">
       <div class="col-xl-4 col-md-6 col-12 px-md-2 login-box">
         <div class="auth-full-page-content p-4">
@@ -260,6 +260,7 @@ export default {
   background-repeat: no-repeat;
   background-position: center;
   opacity: 1;
+  height: 100vh;
 }
 
 .login-box {
@@ -325,5 +326,10 @@ export default {
   cursor: pointer;
 }
 
+@media (max-width: 1200px) {
+    .auth-full-page-content {
+        min-height: 100vh;
+    }
+}
 </style>
 

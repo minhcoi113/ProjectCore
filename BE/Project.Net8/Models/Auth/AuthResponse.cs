@@ -1,3 +1,4 @@
+using Project.Net8.Models.Core;
 using Project.Net8.Models.Permission;
 using Project.Net8.ViewModels;
 
@@ -37,7 +38,7 @@ namespace Project.Net8.Models.Auth
         {
             this.Id = model.Id;
             this.UserName = model.UserName;
-            this.FullName = model.FullName;
+            this.Name = model.Name;
             this.Email = model.Email;
             this.ExpiryDate = expiryDate; 
         //    this.Permissions = model.UnitRoleView != null ? model.UnitRoleView.ListAction : null;
@@ -52,13 +53,13 @@ namespace Project.Net8.Models.Auth
         public string RefreshToken { get; set; }
         
         public DateTime  ExpiryDate { get; set; }
-        public string FullName { get; set; }
+        public string Name { get; set; }
         
         public string PhoneNumber { get; set; }
         public string Email { get; set; }
     
         public IEnumerable<string> Permissions { get; set; }
-        public string Avatar { get; set; }
+        public FileShortModel Avatar { get; set; }
         
         
         

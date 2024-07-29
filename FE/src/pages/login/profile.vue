@@ -63,7 +63,8 @@ export default {
   created() {
     this.fnGetList();
     this.handleProfile();
-    this.getInfomation(this.handleProfile().user.id);
+    const profile = this.handleProfile();
+    this.getInfomation(profile.id);
     this.getID();
   },
   computed: {
@@ -79,7 +80,7 @@ export default {
   },
   validations: {
     model: {
-      fullName: {required},
+      name: {required},
     },
     modelpass: {
       password: { required },
@@ -99,7 +100,10 @@ export default {
   },
   methods:{
     async getInfomation(id){
-      await  this.$store.dispatch("userStore/getById",id).then((res) =>{
+      let params = {
+        id: id
+      }
+      await  this.$store.dispatch("userStore/getById", params).then((res) =>{
         this.modelView = userModel.toJson(res.data);
         this.model = userModel.toJson(res.data)
       })
@@ -107,8 +111,6 @@ export default {
     async loadData() {
       await this.getInfomation();
       this.$refs.tree.setModel(this.data)
-      // this.$store.state.quyTrinhStore.count  = 1;
-      // console.log("this.$store.state.count",this.$store.state.quyTrinhStore.count)
     },
     async fnGetList() {
       this.$refs.tblList?.refresh()
@@ -133,7 +135,7 @@ export default {
             this.model.id
         ) {
           // Update model
-          await this.$store.dispatch("userStore/changeProfile", this.model).then((res) => {
+          await this.$store.dispatch("userStore/update", this.model).then((res) => {
             if (res.code === 0) {
               this.$store.commit('userStore/SET_RELOADAUTHUSER', !this.$store.state.userStore.reloadAuthUser)
               this.modelView = userModel.toJson(res.data);
@@ -152,8 +154,8 @@ export default {
     getID(){
       const idstore= localStorage.getItem('auth-user');
       //console.log('StroreID', JSON.parse(idstore)?.user?.id);
-      this.modelpass.userName=JSON.parse(idstore)?.user?.userName;
-      this.modelpass.id=JSON.parse(idstore)?.user?.id;
+      this.modelpass.userName=JSON.parse(idstore)?.userName;
+      this.modelpass.id=JSON.parse(idstore)?.id;
       return JSON.parse(idstore);
     },
     async handleDetail(id) {
@@ -214,10 +216,13 @@ export default {
     addHinhAnh(file, response){
       if(this.model ){
         if(this.model.avatar == null || this.model.avatar.length <= 0){
-          this.model.avatar = [];
+          this.model.avatar = null;
         }
         let fileSuccess = response.data;
-        this.model.avatar = {fileId: fileSuccess.id,  name: fileSuccess.fileName};
+        this.model.avatar = { 
+          fileId: fileSuccess.fileId,
+          fileName: fileSuccess.fileName,
+          ext: fileSuccess.ext};
       }
     },
     logoutUser() {
@@ -232,6 +237,10 @@ export default {
         return;
       }
     },
+
+    sendingEvent(files, xhr, formData) {
+      formData.append("files", files);
+    },
   },
 
 };
@@ -245,12 +254,12 @@ export default {
         <div class="card overflow-hidden">
           <div class="bg-soft bg-primary">
             <div class="row">
-              <div class="col-7">
+              <div class="col-8">
                 <div class="text-primary p-1">
-                  <h5 class="text-primary">Chào mừng bạn đã trở lại</h5>
+                 
                 </div>
               </div>
-              <div class="col-4 align-self-end">
+              <div class="col-3 align-self-end">
                 <img src="@/assets/images/profile-img.png" alt class="img-fluid" />
               </div>
             </div>
@@ -278,24 +287,9 @@ export default {
                   </div>
 
                 </div>
-                <h5 class="font-size-15 text-truncate">{{modelView.fullName}}</h5>
+                <h5 class="font-size-15 text-truncate">{{modelView.name}}</h5>
                 <p class="text-muted mb-0 text-truncate">@{{modelView.userName}}</p>
               </div>
-
-<!--              <div class="col-sm-6">-->
-<!--                <div class="pt-4">-->
-<!--                  <div class="row">-->
-<!--                    <div class="col-6">-->
-<!--                      <h5 class="font-size-15">125</h5>-->
-<!--                      <p class="text-muted mb-0">Projects</p>-->
-<!--                    </div>-->
-<!--                    <div class="col-6">-->
-<!--                      <h5 class="font-size-15">$1245</h5>-->
-<!--                      <p class="text-muted mb-0">Revenue</p>-->
-<!--                    </div>-->
-<!--                  </div>-->
-<!--                </div>-->
-<!--              </div>-->
             </div>
           </div>
         </div>
@@ -315,25 +309,16 @@ export default {
                 </tr>
                 <tr>
                   <th scope="row" class="fw-normal">Họ và tên :</th>
-                  <td class="fw-bold">{{modelView.fullName}}</td>
+                  <td class="fw-bold">{{modelView.name}}</td>
                 </tr>
                 <tr>
                   <th scope="row" class="fw-normal">E-mail :</th>
                   <td class="fw-bold">{{modelView.email}}</td>
                 </tr>
-                <tr>
+                <!-- <tr>
                   <th scope="row" class="fw-normal">Số điện thoại :</th>
                   <td class="fw-bold">{{modelView.phoneNumber}}</td>
-                </tr>
-<!--                <tr>-->
-<!--                  <th scope="row" class="fw-normal">Quyền :</th>-->
-<!--                  <td class="fw-bold">-->
-<!--                    <div v-for="item in modelView.roles" v-bind:key="item.id">- {{item.ten}}</div></td>-->
-<!--                </tr>-->
-<!--                <tr>-->
-<!--                  <th scope="row" class="fw-normal">Cơ quan</th>-->
-<!--                  <td class="fw-bold">{{modelView.donVi.ten}}</td>-->
-<!--                </tr>-->
+                </tr> -->
                 </tbody>
               </table>
             </div>
@@ -343,11 +328,6 @@ export default {
       </div>
 
       <div class="col-xl-8">
-<!--        <div class="row">-->
-<!--          <div v-for="stat of statData" :key="stat.icon" class="col-md-4">-->
-<!--            <Stat :icon="stat.icon" :title="stat.title" :value="stat.value" />-->
-<!--          </div>-->
-<!--        </div>-->
         <div class="col-xl-12">
           <div class="card">
             <div class="card-body">
@@ -375,24 +355,24 @@ export default {
                           <input type="hidden" v-model="model.id"/>
                           <input
                               id="lastName"
-                              v-model="model.fullName"
+                              v-model="model.name"
                               type="text"
                               class="form-control"
                               placeholder="Nhập họ"
                               :class="{
                                 'is-invalid':
-                                  submitted && $v.model.fullName.$error,
+                                  submitted && $v.model.name.$error,
                               }"
                           />
                           <div
-                              v-if="submitted && !$v.model.fullName.required"
+                              v-if="submitted && !$v.model.name.required"
                               class="invalid-feedback"
                           >
                             Họ và tên không được trống.
                           </div>
                         </div>
                       </div>
-                      <div class="col-12">
+                      <!-- <div class="col-12">
                         <div class="mb-3">
                           <label class="text-left">Số điện thoại</label>
                           <input type="hidden" v-model="model.id"/>
@@ -405,7 +385,7 @@ export default {
                               placeholder="Nhập số điện thoại"
                           />
                         </div>
-                      </div>
+                      </div> -->
                       <div class="col-12">
                         <div class="mb-3">
                           <label class="text-left">Email</label>
@@ -446,6 +426,7 @@ export default {
                             ref="myVueDropzone"
                             :use-custom-slot="true"
                             :options="dropzoneOptions"
+                            v-on:vdropzone-sending="sendingEvent"
                             v-on:vdropzone-removed-file="removeHinhAnh"
                             v-on:vdropzone-success="addHinhAnh"
                         >

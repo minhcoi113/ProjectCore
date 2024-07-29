@@ -7,6 +7,7 @@ import Multiselect from "vue-multiselect";
 import { baiThi3Model } from "@/models/baiThi3Model";
 import Treeselect from "@riophae/vue-treeselect";
 import vue2Dropzone from "vue2-dropzone";
+import {numeric, required} from "vuelidate/lib/validators";
 import 'vue2-dropzone/dist/vue2Dropzone.min.css'
 
 
@@ -15,7 +16,7 @@ export default {
     title: "Danh sách công việc",
     meta: [{ name: "description", content: appConfig.description }],
   },
-  components: { Layout, PageHeader, Multiselect, Treeselect, vueDropzone: vue2Dropzone},
+  components: { Layout, PageHeader, Multiselect, Treeselect, vueDropzone: vue2Dropzone },
   data() {
     return {
       title: "Danh sách công việc",
@@ -77,11 +78,7 @@ export default {
       submitted: false,
       sortBy: "age",
       filter: null,
-      filterTrangThai: {
-        id: null,
-        name: null,
-        code: null
-      },
+      filterTrangThai: null,
       sortDesc: false,
       filterOn: [],
       numberOfElement: 1,
@@ -105,6 +102,22 @@ export default {
         addRemoveLinks: true
       },
     };
+  },
+  computed: {
+    rules(){
+      return{
+        name: {required},
+      thoiGianBatDau: {required},
+      thoiGianKetThuc: {required}
+      }
+    }
+  },
+  validations: {
+    model: {
+      name: {required},
+      thoiGianBatDau: {required},
+      thoiGianKetThuc: {required}
+    },
   },
   created() {
     this.getListTrangThai();
@@ -207,7 +220,10 @@ export default {
     async handleSubmit(e) {
       e.preventDefault();
       this.submitted = true;
-
+      this.$v.$touch();
+      if (this.$v.$invalid) {
+        return;
+      } else {
       let loader = this.$loading.show({
         container: this.$refs.formContainer,
       });
@@ -243,7 +259,7 @@ export default {
           });
         });
       }
-      loader.hide();
+      loader.hide();}
       this.submitted = false;
     },
     async handleUpdate(id) {
@@ -280,7 +296,7 @@ export default {
         limit: ctx.perPage,
         content: this.filter,
         sortDesc: ctx.sortDesc,
-        trangThai: this.filterTrangThai.code == null ? null : this.filterTrangThai.code
+        trangThai: this.filterTrangThai == null ? null : this.filterTrangThai.code
       }
       this.loading = true
       try {
@@ -337,25 +353,23 @@ export default {
         <div class="card">
           <div class="card-body">
             <div class="row mb-2">
-              <div class="col-sm-4">
-                <div class="search-box me-2 mb-2 d-inline-block">
-                  <div class="position-relative">
-                    <input v-model="filter" type="text" class="form-control" placeholder="Tìm kiếm ..." />
-                    <i class="bx bx-search-alt search-icon"></i>
-                  </div>
-                </div>
-                <div class="mb-2">
-                  <label>Trạng thái:</label>
+              <div class="search-box align-items-center">
+                <div class="col-6 position-relative me-2">
+                  <input v-model="filter" type="text" class="form-control" placeholder="Tìm kiếm ..." />
+                  <i class="bx bx-search-alt search-icon"></i>
+                </div>&nbsp;
+                <div class="col-6 align-items-center">
+                  <label class="me-2 mb-0" style="width: 20%;">Trạng thái:</label>
                   <multiselect v-model="filterTrangThai" :options="listTrangThai" :multiple="false" track-by="code"
                     selectLabel="Nhấn vào để chọn" deselectLabel="Nhấn vào để xóa" label="name"
-                    placeholder="Tìm kiếm theo trạng thái">
+                    placeholder="Tìm kiếm theo trạng thái" class="flex-grow-1">
                   </multiselect>
                 </div>
               </div>
-              <div class="col-sm-8">
+              <div class="col-sm-12">
                 <div class="text-sm-end">
-                  <b-button type="button" class="btn-label cs-btn-primary mb-2 me-2" @click="showModal = true"
-                    size="sm">
+                  <b-button type="button" class="btn-label cs-btn-primary mb-2 me-2 btn-large"
+                    @click="showModal = true">
                     <i class="mdi mdi-plus me-1 label-icon"></i> Tạo công việc
                   </b-button>
                   <b-modal v-model="showModal" title="Thông tin công việc" title-class="text-black font-18"
@@ -367,8 +381,17 @@ export default {
                             <label class="text-left">Tên công việc</label>
                             <span style="color: red">&nbsp;*</span>
                             <input type="hidden" v-model="model.id" />
-                            <input id="userName" v-model.trim="model.name" type="text" class="form-control"
-                              placeholder="Nhập tên công việc" />
+                            <input id="name" v-model.trim="model.name" type="text" class="form-control"
+                              placeholder="Nhập tên công việc" 
+                              :class="{
+                                'is-invalid':
+                                  submitted && $v.model.name.$error,
+                              }"/>
+                              <div
+                                v-if="submitted && !$v.model.name.required"
+                                class="invalid-feedback">
+                                Tên công việc không được trống.
+                            </div>
                           </div>
                         </div>
                         <div class="col-6">
@@ -386,7 +409,16 @@ export default {
                             <span style="color: red">&nbsp;*</span>
                             <input type="hidden" v-model="model.id" />
                             <input id="thoiGianBatDau" v-model="model.thoiGianBatDau" type="date"
-                              class="form-control" />
+                              class="form-control"
+                              
+                              :class="{
+                                'is-invalid':
+                                  submitted && $v.model.thoiGianBatDau.$error,
+                              }"/> <div
+                                v-if="submitted && !$v.model.thoiGianBatDau.required"
+                                class="invalid-feedback">
+                                Thời gian bắt đầu không được trống.
+                            </div>
                           </div>
                         </div>
                         <div class="col-6">
@@ -395,7 +427,15 @@ export default {
                             <span style="color: red">&nbsp;*</span>
                             <input type="hidden" v-model="model.id" />
                             <input id="thoiGianKetThuc" v-model="model.thoiGianKetThuc" type="date"
-                              class="form-control" />
+                              class="form-control" 
+                              :class="{
+                                'is-invalid':
+                                  submitted && $v.model.thoiGianKetThuc.$error,
+                              }"/> <div
+                                v-if="submitted && !$v.model.thoiGianKetThuc.required"
+                                class="invalid-feedback">
+                                Thời gian bắt đầu không được trống.
+                            </div>
                           </div>
                         </div>
                         <div class="col-12">
@@ -411,7 +451,7 @@ export default {
                         <div class="mb-3">
                           <label class="text-left">Người giải quyết</label>
                           <multiselect v-model="model.nguoiThucHien" :options="listUser" label="name" :multiple="true"
-                            selectLabel="Nhấn vào để chọn" deselectLabel="Nhấn vào để xóa"
+                            selectLabel="Nhấn vào để chọn" deselectLabel="Nhấn vào để xóa" track-by="id"
                             placeholder="Chọn người giải quyết công việc">
                           </multiselect>
                         </div>
@@ -436,8 +476,8 @@ export default {
                                 target="_blank">
                                 {{ file.fileName }}
                               </b-link>
-                              
-                              <button type="button" size="sm" class="btn btn-outline btn-sm" 
+
+                              <button type="button" size="sm" class="btn btn-outline btn-sm"
                                 v-on:click="deleteFile(file.fileId)">
                                 <i class="fas fa-trash-alt text-danger me-1"></i>
                               </button>
@@ -469,7 +509,7 @@ export default {
             </div>
             <div class="row">
               <div class="col-12">
-                <div class="row mt-4">
+                <div class="row mt-1">
                   <div class="col-sm-12 col-md-6">
                     <div class="col-sm-12 d-flex justify-content-left align-items-center">
                       <div id="tickets-table_length" class="dataTables_length m-1" style="
@@ -507,7 +547,7 @@ export default {
                     </template>
                     <template v-slot:cell(process)="data">
                       <button type="button" size="sm" class="btn btn-outline btn-sm"
-                        v-on:click="handleView(data.item.id)">
+                        v-on:click="handleDetailProject(data.item.id)">
                         <i class="fas fa-eye text-success me-1"></i>
                       </button>
                       <button type="button" size="sm" class="btn btn-outline btn-sm"

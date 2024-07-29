@@ -1,6 +1,7 @@
 using DTC.DefaultRepository.Constants;
 using DTC.DefaultRepository.Exceptions;
 using DTC.DefaultRepository.Helpers;
+using DTC.DefaultRepository.Models.Core;
 using DTC.MongoDB;
 using MongoDB.Driver;
 using Project.Net8.Constants;
@@ -9,6 +10,8 @@ using Project.Net8.Installers;
 using Project.Net8.Interface.Permission;
 using Project.Net8.Models.Permission;
 using Project.Net8.Service.Base;
+using Project.Net8.ViewModels;
+using SharpCompress.Compressors.Xz;
 using System.Xml.Linq;
 
 namespace Project.Net8.Service.Permission
@@ -57,6 +60,12 @@ namespace Project.Net8.Service.Permission
                 throw new ResponseMessageException().WithCode(DefaultCode.DATA_NOT_FOUND)
                     .WithMessage("Nhóm quyền không tồn tại trong hệ thống");
             }
+            var role = _context.UNIT_ROLE.Find(x => !x.IsDeleted).FirstOrDefault();
+            var rolemodel = new CoreModel()
+            {
+                Id = role.Id,
+                Name = role.Name
+            };
             var entity = new User
             {
                 UserName = model.UserName,
@@ -91,7 +100,7 @@ namespace Project.Net8.Service.Permission
 
         public async Task<dynamic> Update(User model)
         {
-               if (model == default)
+            if (model == default)
                 throw new ResponseMessageException().WithCode(DefaultCode.EXCEPTION)
                     .WithMessage(DefaultMessage.DATA_NOT_EMPTY);
 
@@ -110,9 +119,12 @@ namespace Project.Net8.Service.Permission
                 throw new ResponseMessageException().WithException(DefaultCode.EXCEPTION);
 
             
-            entity.UnitRole = model.UnitRole;
+           // entity.UnitRole = model.UnitRole;
             entity.Email = model.Email;
             entity.Name = model.Name;
+            entity.Avatar = model.Avatar;
+
+
             entity.ModifiedAt = DateTime.Now;
             entity.ModifiedBy = CurrentUserName;
             entity.IsVerified = model.IsVerified;
@@ -152,5 +164,49 @@ namespace Project.Net8.Service.Permission
            
             return entity;
         }
+
+        public async Task<dynamic> ChangePassword(UserVM model)
+        {
+            if (model == default)
+                throw new ResponseMessageException().WithCode(DefaultCode.EXCEPTION)
+                     .WithMessage(DefaultMessage.DATA_NOT_EMPTY);
+
+            var entity = _context.USERS.Find(x => x.UserName == model.UserName).FirstOrDefault();
+            if (entity == default)
+                throw new ResponseMessageException().WithCode(DefaultCode.EXCEPTION)
+                    .WithMessage(DefaultMessage.DATA_NOT_FOUND);
+
+            if (!string.IsNullOrEmpty(model.Password))
+            {
+                byte[] passHash, passSalt;
+                passHash = entity.PasswordHash;
+                passSalt = entity.PasswordSalt;
+                var pass = PasswordExtensions.VerifyPasswordHash(model.Password, passHash, passSalt);
+                if (pass != true)
+                {
+                    throw new ResponseMessageException().WithCode(DefaultCode.EXCEPTION)
+                        .WithMessage("Mật khẩu không chính xác");
+                }
+                else
+                {
+                    if (model.newPass == model.confirmPass)
+                    {
+                        byte[] passwordHash, passwordSalt;
+                        PasswordExtensions.CreatePasswordHash(model.newPass, out passwordHash, out passwordSalt);
+                        entity.PasswordHash = passwordHash;
+                        entity.PasswordSalt = passwordSalt;
+                    }
+                }
+            }
+
+            var result = await BaseMongoDb.UpdateAsync(entity);
+            if (!result.Success)
+            {
+                throw new ResponseMessageException().WithCode(DefaultCode.EXCEPTION)
+                    .WithMessage("Đổi mật khẩu thất bại.");
+            }
+            return entity;
+        }
+
     }
 }
