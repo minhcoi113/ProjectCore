@@ -7,7 +7,7 @@ import Multiselect from "vue-multiselect";
 import { baiThi3Model } from "@/models/baiThi3Model";
 import Treeselect from "@riophae/vue-treeselect";
 import vue2Dropzone from "vue2-dropzone";
-import {numeric, required} from "vuelidate/lib/validators";
+import { numeric, required } from "vuelidate/lib/validators";
 import 'vue2-dropzone/dist/vue2Dropzone.min.css'
 
 
@@ -104,19 +104,19 @@ export default {
     };
   },
   computed: {
-    rules(){
-      return{
-        name: {required},
-      thoiGianBatDau: {required},
-      thoiGianKetThuc: {required}
+    rules() {
+      return {
+        name: { required },
+        thoiGianBatDau: { required },
+        thoiGianKetThuc: { required }
       }
     }
   },
   validations: {
     model: {
-      name: {required},
-      thoiGianBatDau: {required},
-      thoiGianKetThuc: {required}
+      name: { required },
+      thoiGianBatDau: { required },
+      thoiGianKetThuc: { required }
     },
   },
   created() {
@@ -224,42 +224,43 @@ export default {
       if (this.$v.$invalid) {
         return;
       } else {
-      let loader = this.$loading.show({
-        container: this.$refs.formContainer,
-      });
-      if (
-        this.model.id != 0 &&
-        this.model.id != null &&
-        this.model.id
-      ) {
-        // Update model
-        await this.$store.dispatch("baiThiStore/update", this.model).then((res) => {
-          if (res.code === 0) {
-            this.showModal = false;
-            this.getTreeView();
-            this.$refs.tblList.refresh();
-          }
-          this.$store.dispatch("snackBarStore/addNotify", {
-            message: res.message,
-            code: res.code,
-          });
+        let loader = this.$loading.show({
+          container: this.$refs.formContainer,
         });
-      } else {
-        // Create model
-        await this.$store.dispatch("baiThiStore/create", this.model).then((res) => {
-          if (res.code === 0) {
-            this.fnGetList();
-            this.getTreeView();
-            this.showModal = false;
-            this.model = {}
-          }
-          this.$store.dispatch("snackBarStore/addNotify", {
-            message: res.message,
-            code: res.code,
+        if (
+          this.model.id != 0 &&
+          this.model.id != null &&
+          this.model.id
+        ) {
+          // Update model
+          await this.$store.dispatch("baiThiStore/update", this.model).then((res) => {
+            if (res.code === 0) {
+              this.showModal = false;
+              this.getTreeView();
+              this.$refs.tblList.refresh();
+            }
+            this.$store.dispatch("snackBarStore/addNotify", {
+              message: res.message,
+              code: res.code,
+            });
           });
-        });
+        } else {
+          // Create model
+          await this.$store.dispatch("baiThiStore/create", this.model).then((res) => {
+            if (res.code === 0) {
+              this.fnGetList();
+              this.getTreeView();
+              this.showModal = false;
+              this.model = {}
+            }
+            this.$store.dispatch("snackBarStore/addNotify", {
+              message: res.message,
+              code: res.code,
+            });
+          });
+        }
+        loader.hide();
       }
-      loader.hide();}
       this.submitted = false;
     },
     async handleUpdate(id) {
@@ -386,11 +387,9 @@ export default {
                               :class="{
                                 'is-invalid':
                                   submitted && $v.model.name.$error,
-                              }"/>
-                              <div
-                                v-if="submitted && !$v.model.name.required"
-                                class="invalid-feedback">
-                                Tên công việc không được trống.
+                              }" />
+                            <div v-if="submitted && !$v.model.name.required" class="invalid-feedback">
+                              Tên công việc không được trống.
                             </div>
                           </div>
                         </div>
@@ -408,16 +407,13 @@ export default {
                             <label class="text-left">Ngày bắt đầu</label>
                             <span style="color: red">&nbsp;*</span>
                             <input type="hidden" v-model="model.id" />
-                            <input id="thoiGianBatDau" v-model="model.thoiGianBatDau" type="date"
-                              class="form-control"
-                              
+                            <input id="thoiGianBatDau" v-model="model.thoiGianBatDau" type="date" class="form-control"
                               :class="{
                                 'is-invalid':
                                   submitted && $v.model.thoiGianBatDau.$error,
-                              }"/> <div
-                                v-if="submitted && !$v.model.thoiGianBatDau.required"
-                                class="invalid-feedback">
-                                Thời gian bắt đầu không được trống.
+                              }" />
+                            <div v-if="submitted && !$v.model.thoiGianBatDau.required" class="invalid-feedback">
+                              Thời gian bắt đầu không được trống.
                             </div>
                           </div>
                         </div>
@@ -426,15 +422,13 @@ export default {
                             <label class="text-left">Ngày kết thúc</label>
                             <span style="color: red">&nbsp;*</span>
                             <input type="hidden" v-model="model.id" />
-                            <input id="thoiGianKetThuc" v-model="model.thoiGianKetThuc" type="date"
-                              class="form-control" 
+                            <input id="thoiGianKetThuc" v-model="model.thoiGianKetThuc" type="date" class="form-control"
                               :class="{
                                 'is-invalid':
                                   submitted && $v.model.thoiGianKetThuc.$error,
-                              }"/> <div
-                                v-if="submitted && !$v.model.thoiGianKetThuc.required"
-                                class="invalid-feedback">
-                                Thời gian bắt đầu không được trống.
+                              }" />
+                            <div v-if="submitted && !$v.model.thoiGianKetThuc.required" class="invalid-feedback">
+                              Thời gian bắt đầu không được trống.
                             </div>
                           </div>
                         </div>
@@ -535,7 +529,8 @@ export default {
                     </template>
                     <template v-slot:cell(name)="data">
                       <span style="margin-left: 5px">
-                        <a style="cursor: pointer;" v-on:click="handleDetailProject(data.item.id)">
+                        <a style="cursor: pointer;" 
+                        v-on:click="handleDetailProject(data.item.id)">
                           {{ data.item.name }}
                         </a>
                       </span>

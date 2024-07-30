@@ -8,14 +8,14 @@ import { baiThi3Model } from "@/models/baiThi3Model";
 import Treeselect from "@riophae/vue-treeselect";
 import vue2Dropzone from "vue2-dropzone";
 import 'vue2-dropzone/dist/vue2Dropzone.min.css'
-
+import { numeric, required } from "vuelidate/lib/validators";
 
 export default {
   page: {
     title: "Danh sách công việc được giao",
     meta: [{ name: "description", content: appConfig.description }],
   },
-  components: { Layout, PageHeader, Multiselect, Treeselect, vueDropzone: vue2Dropzone},
+  components: { Layout, PageHeader, Multiselect, Treeselect, vueDropzone: vue2Dropzone },
   data() {
     return {
       title: "Danh sách công việc được giao",
@@ -80,12 +80,37 @@ export default {
       listUser: [],
       listCV: [],
       pagination: pagingModel.baseJson(),
-      date: false
+      date: false,
+      dropzoneOptions: {
+        url: `${process.env.VUE_APP_API_URL}files/upload`,
+        acceptedFiles: ".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.xls,.xlsx, .zip",
+        thumbnailHeight: 100,
+        thumbnailWidth: 300,
+        maxFiles: 30,
+        maxFilesize: 50,
+        maxFileSizeInMB: 50,
+        headers: { "My-Awesome-Header": "header value" },
+        addRemoveLinks: true
+      },
     };
   },
   computed: {
     buttonText() {
       return this.date ? 'Tất cả công việc' : 'Công việc hôm nay';
+    },
+    rules() {
+      return {
+        name: { required },
+        thoiGianBatDau: { required },
+        thoiGianKetThuc: { required }
+      }
+    }
+  },
+  validations: {
+    model: {
+      name: { required },
+      thoiGianBatDau: { required },
+      thoiGianKetThuc: { required }
     },
   },
   created() {
@@ -124,29 +149,33 @@ export default {
     async handleSubmit(e) {
       e.preventDefault();
       this.submitted = true;
-
-      let loader = this.$loading.show({
-        container: this.$refs.formContainer,
-      });
-      if (
-        this.model.id != 0 &&
-        this.model.id != null &&
-        this.model.id
-      ) {
-        // Update model
-        await this.$store.dispatch("baiThiStore/update", this.model).then((res) => {
-          if (res.code === 0) {
-            this.showModal = false;
-            this.getTreeView();
-            this.$refs.tblList.refresh();
-          }
-          this.$store.dispatch("snackBarStore/addNotify", {
-            message: res.message,
-            code: res.code,
-          });
+      this.$v.$touch();
+      if (this.$v.$invalid) {
+        return;
+      } else {
+        let loader = this.$loading.show({
+          container: this.$refs.formContainer,
         });
+        if (
+          this.model.id != 0 &&
+          this.model.id != null &&
+          this.model.id
+        ) {
+          // Update model
+          await this.$store.dispatch("baiThiStore/update", this.model).then((res) => {
+            if (res.code === 0) {
+              this.showModal = false;
+              this.getTreeView();
+              this.$refs.tblList.refresh();
+            }
+            this.$store.dispatch("snackBarStore/addNotify", {
+              message: res.message,
+              code: res.code,
+            });
+          });
+        }
+        loader.hide();
       }
-      loader.hide();
       this.submitted = false;
     },
     async handleUpdate(id) {
@@ -184,6 +213,44 @@ export default {
         })
       } finally {
         this.loading = false
+      }
+    },
+    handleDetailProject(id) {
+      localStorage.setItem("currentProject", id);
+      this.$router.push(`/chi-tiet-cong-viec`);
+    },
+    sendingEvent(files, xhr, formData) {
+      formData.append("files", files);
+    },
+    removeThisFile(files, error, xhr) {
+      let fileCongViec = JSON.parse(files.xhr.response);
+      if (fileCongViec.data && fileCongViec.data.fileId) {
+        let idFile = fileCongViec.data.fileId;
+        let resultData = this.model.files.filter(x => {
+          return x.fileId != idFile;
+        })
+        this.model.files = resultData;
+      }
+    },
+    uploadFile(files, response) {
+      let fileSuccess = response.data;
+      console.log('log suscess', fileSuccess)
+      console.log('this.model', this.model)
+      if (response.code == 0) {
+        this.model.files.push({
+          fileId: fileSuccess.fileId,
+          fileName: fileSuccess.fileName,
+          ext: fileSuccess.ext
+        });
+      }
+    },
+    deleteFile(val) {
+      var index = this.model.files.findIndex((el) => el.fileId == val);
+      if (index != -1) {
+        this.filesDelete.push({
+          fileId: val,
+        });
+        this.model.files.splice(index, 1);
       }
     },
   },
@@ -243,7 +310,13 @@ export default {
                             <span style="color: red">&nbsp;*</span>
                             <input type="hidden" v-model="model.id" />
                             <input id="userName" v-model.trim="model.name" type="text" class="form-control"
-                              placeholder="Nhập tên công việc" />
+                              placeholder="Nhập tên công việc" :class="{
+                                'is-invalid':
+                                  submitted && $v.model.name.$error,
+                              }" disabled="true"/>
+                            <div v-if="submitted && !$v.model.name.required" class="invalid-feedback">
+                              Tên công việc không được trống.
+                            </div>
                           </div>
                         </div>
                         <div class="col-6">
@@ -261,7 +334,13 @@ export default {
                             <span style="color: red">&nbsp;*</span>
                             <input type="hidden" v-model="model.id" />
                             <input id="thoiGianBatDau" v-model="model.thoiGianBatDau" type="date"
-                              class="form-control" />
+                              class="form-control"  :class="{
+                                'is-invalid':
+                                  submitted && $v.model.thoiGianBatDau.$error,
+                              }" disabled="true"/>
+                            <div v-if="submitted && !$v.model.thoiGianBatDau.required" class="invalid-feedback">
+                              Thời gian bắt đầu không được trống.
+                            </div>
                           </div>
                         </div>
                         <div class="col-6">
@@ -270,7 +349,13 @@ export default {
                             <span style="color: red">&nbsp;*</span>
                             <input type="hidden" v-model="model.id" />
                             <input id="thoiGianKetThuc" v-model="model.thoiGianKetThuc" type="date"
-                              class="form-control" />
+                              class="form-control" :class="{
+                                'is-invalid':
+                                  submitted && $v.model.thoiGianKetThuc.$error,
+                              }" disabled="true"/>
+                            <div v-if="submitted && !$v.model.thoiGianKetThuc.required" class="invalid-feedback">
+                              Thời gian bắt đầu không được trống.
+                            </div>
                           </div>
                         </div>
                         <div class="col-12">
@@ -287,14 +372,14 @@ export default {
                           <label class="text-left">Người giải quyết</label>
                           <multiselect v-model="model.nguoiThucHien" :options="listUser" label="name" :multiple="true"
                             selectLabel="Nhấn vào để chọn" deselectLabel="Nhấn vào để xóa"
-                            placeholder="Chọn người giải quyết công việc">
+                            placeholder="Chọn người giải quyết công việc" disabled="true">
                           </multiselect>
                         </div>
                       </div>
                       <div class="mb-3">
                         <label class="text-left">Công việc cha</label>
                         <treeselect :options="listCV" :value="model.parentId" :searchable="true" :show-count="true"
-                          :default-expand-level="1">
+                          :default-expand-level="1" disabled="true">
                           <label slot="option-label"
                             slot-scope="{ node, shouldShowCount, count, labelClassName, countClassName }"
                             :class="labelClassName">

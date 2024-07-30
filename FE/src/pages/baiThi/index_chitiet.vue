@@ -64,9 +64,10 @@ export default {
         this.getChildren();
     },
     methods: {
+        handleCallBack() {
+            this.$router.go(-1);
+        },
         handleDetailProject(id) {
-            console.log("Min: ", id);
-            localStorage.setItem("currentProject", id);
             localStorage.setItem("currentProject", id);
             if (this.$route.path === '/chi-tiet-cong-viec') {
                 this.$router.replace('/chi-tiet-cong-viec');
@@ -117,13 +118,20 @@ export default {
 
 <template>
     <Layout>
-        <PageHeader :title="title" :items="items" />
+        <div class="d-flex justify-content-between align-items-center">
+            <PageHeader :title="title" :items="items" />
+                <b-button type="button" class="btn-label cs-btn-primary mb-2 me-2 btn-large" 
+                @click="handleCallBack()">
+                    <i class="mdi mdi-arrow-left me-1 label-icon"></i> Trở lại
+                </b-button>
+        </div>
         <div class="row">
             <div class="col-12">
                 <div class="card">
                     <div class="card-body">
+
                         <div class="row">
-                            <div class="col-12">
+                            <div>
                                 <div class="mb-6">
                                     <label class="text-left" style="font-weight: bold">Tên công việc: </label>
                                     <div id="name" class="form-control-plaintext">
